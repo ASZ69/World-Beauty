@@ -1,0 +1,188 @@
+/* CSS Document */
+
+.main-heading {
+	position: relative;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height:50vh;
+	overflow: hidden;
+}
+
+.main-img-p {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height:100vh;
+	overflow: hidden;
+}
+
+
+.sub-body {
+	position: relative;
+	z-index: 1;
+	top: 50px !important;
+	left: 0px !important;
+	padding: 20px 0;
+}
+
+
+
+.sides ul{
+	padding: 0 7px;
+}
+
+.sides ul li {
+	text-decoration: none;
+	height: 45px;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	line-height: 45px;
+	padding-left: 10px;
+}
+
+.sides ul li:hover{
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.slider-p {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+
+.carousel-inner {
+	max-height: 550px;
+}
+.Button
+	 {
+	background: var(--bg-color);
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: var(--text-color);
+	border: none;
+	text-decoration: none;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.Button:hover {
+	opacity: 0.8;
+	background-color: var(--hover-color);
+}
+/*zoom pics*/
+/* @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+  body {
+    background: #fff;
+    color: #000;
+    margin: 0;
+  }
+
+  .tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tile {
+    position: relative;
+    float: left;
+    width: 33.333%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
+
+  .txt {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    cursor: default;
+  }
+
+  .x {
+    font-size: 32px;
+    line-height: 32px;
+  }*/
+
+.africaIndex {
+	display: inline-block;
+}
+
+.africaIndexInner {
+	height: auto;
+	width: 50%;
+}
+
+.roundImg {
+	border-radius: 50px;
+	width: 50px;
+}
+
+.setImg {
+
+}
+
+.Tri-line-img {
+	padding-left:30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.long-div {
+	
+	background: #0E0E0E;
+	display: inline-block;
+	float: left;
+	min-width: 390px;
+	margin-left: 20px;
+
+}
+.longImg:hover {
+	opacity: 0.6;
+	transition-duration: 1.5s;
+}
+
+.longImg {
+	width: 50vw;
+	min-width: 300px;
+	float: left;
+	height: 250px;
+	
+}
+
+.img-text {
+	float: left;
+	width: 22vw;
+	padding: 2%;
+	background: #0E0E0E;
+	color: var(--text-color);
+	font-size: 2vw;
+}
