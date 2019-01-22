@@ -186,3 +186,77 @@
 	color: var(--text-color);
 	font-size: 2vw;
 }
+
+.contactImg {
+	position: relative;
+}
+
+.contactForm {
+	position: absolute;
+	top: 30px;
+}
+
+.NnE{
+ float: left;
+	width: 30%;
+    margin-right: 5%;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    background-color: inherit;
+    /*    for variable text area*/
+   
+    min-height: 10px;
+}
+.PnSnM{
+    float: left;
+	width: 30%;
+    margin-right: 5%;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    background-color: inherit;
+    /*    for variable text area*/
+   
+    min-height: 10px;
+}
+
+.Cbtn {
+	float: left;
+}
+
+.contact-form>textarea {
+	border-style: inherit;
+	border-color: inherit;
+}
+
+
+
+
+
+.newImg2 {
+	width: 70%;
+	height: auto;
+}
+.newImg2:hover {
+	cursor: pointer;
+	opacity: 0.6;
+	transition-duration: 1s;
+}
+
+
+
+
+.five-img {
+	width: 20%;
+}
+
+.test {
+	width: 15%;
+}
+
+.colorBg {
+	background: rgba(103,103,103,1.00);
+}
