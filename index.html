@@ -369,18 +369,63 @@
 			</div>
 		</div>
 	</div><br>
-		<!--long img END-->
-	
-		<div class="row">
-			
-		    <div class="five-img"><img src="images/africa/Kruger_National_Park.jpg" alt="kable" height="180px"></div>
-		    <div class="five-img"><img src="images/africa/Kruger_National_Park.jpg" alt="kable" height="180px"></div>
-			<div class="five-img"><img src="images/africa/Kruger_National_Park.jpg" alt="kable" height="180px"></div>
-			<div class="five-img"><img src="images/africa/Kruger_National_Park.jpg" alt="kable" height="180px"></div>
-			<div class="five-img"><img src="images/africa/Kruger_National_Park.jpg" alt="kable" height="180px"></div>
-		</div><br>
+		<!--2nd row start-->
+	<h2 class="vi-img-head">Like-New gift in Renewed Computers</h2>
+	<div class="row">
+		<center>
+			<div class="col-md-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/africa/day-in-life-of-safari.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/africa/Elephant Camps4.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/index/cards/long-div/lap4.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/index/cards/long-div/lap8.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/index/cards/long-div/lap5.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+			<div class="box-2">
+				<div class="vi-imgs-div imgMax">
+					<img class="vi-imgs" src="images/index/cards/long-div/lap6.jpg" alt="image">
+					<div class="goto-overlay">
+						<a href="html/products.html#laptop" class="goto-overlay-btn">Go to</a>
+					</div>
+				</div>
+			</div>
+		</center>
+	</div>
 
-		<!--Row end-->
+	<!--2nd row end-->
+
 		<!--7th row start-->
 	<div class="row colorBg">
 		
@@ -406,16 +451,17 @@
 			</div><br>
 
 	<!--7th row end-->
+		<div class="row contactImg"><img src="images/africa/zanzibar.jpg" alt="img" width="100%" height="1000hw">
 		<!--	map row start-->
-		<div class="row">
-			<img src="images/test/google-fusion-120-map-data.jpg" alt="map" width="100%" height="700px">
-		</div><br>
-
+		
+		<div class="mapG">
+			<img src="images/test/google-fusion-120-map-data.jpg" alt="map" width="100%" height="600hw">
+	</div>
 <!--	map row End-->
 <!--Contact Row start-->
+		
 		<div class="row">
-		<div class="col-md-12">
-			<div class="contactImg"><img src="images/africa/zanzibar.jpg" alt="img" width="100%" height="300px">
+		
 			   <div class="contactForm"> <form class="contact-form" action="javascript:sendMail()">
 					<div class="NnE"><label for="name">Name: </label>
 						<input id="name" type="text" class="input" placeholder="Name" pattern="[A-Za-z]" required></div>
@@ -431,7 +477,7 @@
 				</form></div>
 			
 			</div>
-			</div>
+			
 			 	
 		</div>
 <!--Contact Row End-->
@@ -503,7 +549,16 @@
 
 	</div>
 
-	
+	<script>
+		function sendMail() {
+			var name = document.getElementById("name").value;
+			var email = document.getElementById("email").value;
+			var num = document.getElementById("num").value;
+			var sub = document.getElementById("sub").value;
+			var msg = document.getElementById("msg").value;
+			window.location.href = "mailto:" + email + "?subject=" + sub + "&body=I'm " + name + " " + msg;
+		}
+	</script>
 
 
 </body>

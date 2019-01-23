@@ -189,11 +189,15 @@
 
 .contactImg {
 	position: relative;
+	z-index: -222;
 }
 
 .contactForm {
 	position: absolute;
-	top: 30px;
+	top: 66%;
+	left: 10%;
+	z-index: 333;
+	height: 400px;
 }
 
 .NnE{
@@ -259,4 +263,60 @@
 
 .colorBg {
 	background: rgba(103,103,103,1.00);
+}
+
+.absolute {
+	position: absolute;
+
+}
+
+.mapG {
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	
+}
+
+.vi-img-head {
+ margin-left: 2%;
+
+}
+
+.vi-img-head {
+	margin-left: 2%;
+}
+
+.imgMax {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	max-height: 300px;
+	align-content: center;
+}
+
+.vi-imgs {
+	width: 100%;
+	height: auto;
+	padding: 1%;
+}
+.vi-imgs:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.vi-imgs:hover+.goto-overlay {
+	display: block;
+}
+.goto-overlay:hover {
+	display: block;
+}
+.goto-overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
 }
