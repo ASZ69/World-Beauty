@@ -204,7 +204,8 @@
 
 .contactForm {
 	z-index: 333;
-	height: 400px;
+	height: 35vh;
+	text-align: center;
 }
 
 .NnE{
@@ -215,6 +216,7 @@
     border: none;
     border-bottom: 1px solid black;
     padding: 10px 0;
+	margin-bottom: 20px; 
     background-color: inherit;
     /*    for variable text area*/
    
@@ -451,4 +453,33 @@
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+.contact-heading {
+font-size: 40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.contact-form {
+text-align: center;
+}
+
+.top-img {
+	position: relative;
+}
+
+.top-img-text {
+	position: absolute;
+	top: 30%;
+	transform: translate(50%,50%);
+	right: 50%;
+	
+}
+
+
+.respo-font {
+	font-size: 4vw;
+}
+
+.respo-font-h6 {
+	font-size: 2vw;
 }
