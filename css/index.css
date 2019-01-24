@@ -164,8 +164,10 @@
 }
 
 .Tri-line-img {
-	padding-left:30px;
-	padding-right: 30px;
+
+
+	border-radius: 6px; 
+	box-shadow: 0 8px 16px 0 rgba(92,85,57,1.00);
 }
 
 .long-div {
@@ -292,7 +294,7 @@
 
 .vi-img-head {
  margin-left: 2%;
-
+width: 100%;
 }
 
 .vi-img-head {
@@ -381,7 +383,7 @@
 	color: #1B1B1B;
 	padding-left: 2%;
 	padding-right: 2%;
-	padding-top: 2%;
+	padding-top: 7vh;
 }
 
 .pb-img {
@@ -389,13 +391,11 @@
 		padding-right: 30px;
 }
 
-.bg-color-white {
-	background-color:aliceblue;
+.bg-color {
+	background-color:rgba(185,180,160,1.00);
 }
 
-.bg-color-ice {
-	background:rgba(255,255,255,1.00) ;
-}
+
 
 .bg-gray-color {
 	background: rgba(169,169,169,1.00);
@@ -474,9 +474,9 @@ text-align: center;
 
 .top-img-text {
 	position: absolute;
-	top: 6%;
-	transform: translate(50%,50%);
-	right: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
 	
 }
 
@@ -574,4 +574,19 @@ button-stl:hover::after{
 	text-decoration: none;
 	color: solid black !important;
 	font-size: 1.5vw;
+}
+
+.st-tri-div {
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+.Tri-line {
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+.del-margin {
+	padding: 0px !important;
+	margin: 0px !important;
 }
