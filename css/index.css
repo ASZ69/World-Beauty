@@ -68,18 +68,23 @@
 }
 .Button
 	 {
-	background: var(--bg-color);
+	background:rgba(26,26,24,1.00)  ;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 3px;
 	padding: 10px 25px;
-	color: var(--text-color);
+	color: rgba(123,116,90,1.0) ;
 	border: none;
 	text-decoration: none;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+	box-shadow: 0 8px 16px 0 rgba(92,85,57,1.00);
+		 
+		
 }
 .Button:hover {
 	opacity: 0.8;
-	background-color: var(--hover-color);
+	background-color: rgba(65,49,26,1.00);
+	text-decoration: none;
+	color: solid black !important;
+	font-size: 1.5vw;
 }
 /*zoom pics*/
 /* @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
@@ -469,7 +474,7 @@ text-align: center;
 
 .top-img-text {
 	position: absolute;
-	top: 30%;
+	top: 6%;
 	transform: translate(50%,50%);
 	right: 50%;
 	
@@ -482,4 +487,91 @@ text-align: center;
 
 .respo-font-h6 {
 	font-size: 2vw;
+}
+
+/*
+.button-stl {
+	background: none;
+	color: #CCCCCC;
+	width: 240px;
+	height: 80px;
+	boder: 2px solid #338033;
+	font-size: 18px;
+	border-radius: 3px;
+	transition: .6s;
+	overflow: hidden;
+	
+}
+button-stl::focus{
+	outline: double;
+}
+
+button-stl::before{
+	content: '';
+	display: block;
+	position: absolute;
+	background: rgba(255,255,255,.5);
+	width: 60px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: .5s;
+	filter: blur(30px);
+	transform: translateX(-130px) skewX(-15deg);
+}
+
+button-stl::after{
+	content: '';
+	display: block;
+	position: absolute;
+	background: rgba(255,255,255,.2);
+    width: 30px;
+	height: 100%;
+	left: 30px;
+	top: 0;
+	opacity: 0;
+	filter: blur(30px);
+	transform: translate(-100px) scaleX(-15deg);
+
+}
+
+button-stl:hover{
+	background: #338033;
+	cursor: pointer;
+}
+
+button-stl:hover::before{
+	transform: translateX(300px) skewX(-15deg);
+	opacity: .6;
+	transition: .7s;
+}
+button-stl:hover::after{
+	transform: translateX(300px) skewX(-15deg);
+	opacity: 1;
+	transition: .7s;
+}
+
+*/
+
+.top-btn-div{
+		margin-top: 10vh;
+}
+.top-btn {
+
+	background:rgba(26,26,24,1.00)  ;
+	text-align: center;
+	border-radius: 3px;
+	padding: 19px 40px;
+	color: rgba(123,116,90,1.0) ;
+	border: none;
+	text-decoration: none;
+	box-shadow: 0 8px 16px 0 rgba(92,85,57,1.00);
+		 font-size: 1.5vw;
+}
+.top-btn:hover {
+	opacity: 0.8;
+	background-color: rgba(65,49,26,1.00);
+	text-decoration: none;
+	color: solid black !important;
+	font-size: 1.5vw;
 }
