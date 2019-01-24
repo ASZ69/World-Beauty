@@ -13,8 +13,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+	color: rgba(255,255,255,1.00);
 }
 
 .ab-heading {
     position: relative;
+	color: rgba(123,116,90,1.00);
+	margin-top: 50px;
 }
