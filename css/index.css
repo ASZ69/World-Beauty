@@ -171,6 +171,7 @@
 }
 
 .long-div {
+      z-index: 40;
 		margin-top: 30px;
 	background: #0E0E0E;
 	display: inline-block;
@@ -477,16 +478,21 @@ text-align: center;
 	top: 50%;
 	transform: translate(-50%,-50%);
 	left: 50%;
+    background:rgba(110,77,54,.20);
+	
 	
 }
 
 
 .respo-font {
 	font-size: 4vw;
+	
+	color:rgba(22,20,17,0.96);
 }
 
 .respo-font-h6 {
 	font-size: 2vw;
+	color: rgba(123,116,90,1.0);
 }
 
 /*
@@ -558,14 +564,14 @@ button-stl:hover::after{
 }
 .top-btn {
 
-	background:rgba(26,26,24,1.00)  ;
+	background:rgba(26,26,24,1.00) ;
 	text-align: center;
 	border-radius: 3px;
 	padding: 19px 40px;
 	color: rgba(123,116,90,1.0) ;
-	border: none;
+	border: none; 
 	text-decoration: none;
-	box-shadow: 0 8px 16px 0 rgba(92,85,57,1.00);
+	box-shadow: 0 8px 16px 0 rgba(70,66,51,1.00);
 		 font-size: 1.5vw;
 }
 .top-btn:hover {
@@ -589,4 +595,24 @@ button-stl:hover::after{
 .del-margin {
 	padding: 0px !important;
 	margin: 0px !important;
+}
+
+.paddingUp {
+	padding: 0px !important;
+	margin: 0px !important;
+	padding-bottom: 20px !important;
+	margin-top: 40px;
+}
+
+.img-1 {
+	cursor: pointer;
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.img-1:hover{
+	transform: scale(1.05);
+}
+
+
+.img-effect {
+	background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
 }
