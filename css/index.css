@@ -393,7 +393,7 @@ width: 100%;
 }
 
 .bg-color {
-	background-color:rgba(185,180,160,1.00);
+	background-color:rgba(50,50,50,1.00);
 }
 
 
@@ -643,6 +643,7 @@ button-stl:hover::after{
   line-height: 32px;
   position: relative;
   top: -48px;
+	cursor: pointer;
 }
 
 @keyframes draw {
