@@ -3399,6 +3399,8 @@
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
+  -webkit-animation-duration: 2s;
+    animation-duration: 2s !important;
 }
 
 @-webkit-keyframes slideInUp {

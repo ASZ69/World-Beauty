@@ -1,0 +1,11 @@
+:root {
+    /*    declaring some variables for color*/
+    --bg-color:#141415 ;
+/*    --hover-color: #05BD9E;*/
+	 --hover-color: #0E7E8C;
+    --hover-pre-color: rgba(5, 218, 182, 0.65);
+    --text-color: #7C7C7C;
+    --primary-color: #DDDDDD;
+    --body-color: #fff;
+	--button-color:#020013;
+}

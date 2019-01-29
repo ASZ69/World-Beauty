@@ -1,5 +1,4 @@
 // JavaScript Document
-
 $(document).ready(function(){
 	$(function() {
 
@@ -25,7 +24,7 @@ $(document).ready(function(){
 	  $(document.body).on('appear', '.roundImgDiv', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.roundImgDiv').addClass('slideInLeft');
+		  $('.roundImgDiv').addClass('fadeInLeft');
 		});
 		  
 	  });
@@ -41,7 +40,7 @@ $(document).ready(function(){
 	  $(document.body).on('appear', '.roundImgDiv2', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.roundImgDiv2').addClass('slideInRight');
+		  $('.roundImgDiv2').addClass('fadeInRight','slower');
 		});
 		  
 	  });
@@ -58,24 +57,7 @@ $(document).ready(function(){
 	  $(document.body).on('appear', '.triLineDiv', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.triLineDiv').addClass('slideInLeft');
-		});
-		  
-	  });
-	});
-
-});
-
-
-$(document).ready(function(){
-	$(function() {
-
-	  $('.triLineDiv2').appear();
-
-	  $(document.body).on('appear', '.triLineDiv2', function(e, $affected) {
-		// this code is executed for each appeared element
-		$affected.each(function() {
-		  $('.triLineDiv2').addClass('slideInUp');
+		  $('.triLineDiv').addClass('bounceInLeft');
 		});
 		  
 	  });
@@ -92,7 +74,7 @@ $(document).ready(function(){
 	  $(document.body).on('appear', '.triLineDiv3', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.triLineDiv3').addClass('slideInRight');
+		  $('.triLineDiv3').addClass('bounceInRight','slower');
 		});
 		  
 	  });
@@ -108,12 +90,12 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(function() {
 
-	  $('.pb-img').appear();
+	  $('.anim').appear();
 
-	  $(document.body).on('appear', '.pb-img', function(e, $affected) {
+	  $(document.body).on('appear', '.anim', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.pb-img').addClass('flipInY');
+		  $('.anim').addClass('flipInY', 'slower');
 		});
 		  
 	  });
@@ -121,57 +103,110 @@ $(document).ready(function(){
 
 });
 
+//4div line 
+$(document).ready(function(){
+	$(function() {
+
+	  $('.st-tri-div').appear();
+
+	  $(document.body).on('appear', '.st-tri-div', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		  $('.st-tri-div').addClass('fadeInRight');
+		});
+		  
+	  });
+	});
+
+});
+
+$(document).ready(function(){
+	$(function() {
+
+	  $('.st-tri-div2').appear();
+
+	  $(document.body).on('appear', '.st-tri-div2', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		  $('.st-tri-div2').addClass('fadeInLeft');
+		});
+		  
+	  });
+	});
+
+});
+//line div
+$(document).ready(function(){
+	$(function() {
+
+	  $('.img-1').appear();
+
+	  $(document.body).on('appear', '.img-1', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		  $('.img-1').addClass('rotateInDownLeft');
+		});
+		  
+	  });
+	});
+
+});
+//Row 7 Blocks
+
+$(document).ready(function(){
+	$(function() {
+
+	  $('.animRow7').appear();
+
+	  $(document.body).on('appear', '.animRow7', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		  $('.animRow7').addClass('flipInX');
+		});
+		  
+	  });
+	});
+
+});
+//Row 9th Blogs
+$(document).ready(function(){
+	$(function() {
+
+	  $('.long-div2 ').appear();
+
+	  $(document.body).on('appear', '.long-div2 ', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		  $('.long-div2').addClass('fadeInLeft');
+		});
+		  
+	  });
+	});
+
+});
 
 
 $(document).ready(function(){
 	$(function() {
 
-	  $('.pb-img').appear();
+	  $('.long-div3').appear();
 
-	  $(document.body).on('appear', '.pb-img', function(e, $affected) {
+	  $(document.body).on('appear', '.long-div3', function(e, $affected) {
 		// this code is executed for each appeared element
 		$affected.each(function() {
-		  $('.pb-img').addClass('flipInY');
+		  $('.long-div3').addClass('fadeInRight');
 		});
 		  
 	  });
 	});
 
 });
-
-
-
-
-
-//zoom in js
-$('.tile')
-    // tile mouse actions
-    .on('mouseover', function(){
-      $(this).children('.photo').css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
-    })
-    .on('mouseout', function(){
-      $(this).children('.photo').css({'transform': 'scale(1)'});
-    })
-    .on('mousemove', function(e){
-      $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
-    })
-    // tiles set up
-    .each(function(){
-      $(this)
-        // add a photo container
-        .append('<div class="photo"></div>')
-        // some text just to show zoom level on current item in this example
-        .append('<div class="txt"><div class="x">'+ $(this).attr('data-scale') +'x</div>ZOOM ON<br>HOVER</div>')
-        // set up a background image for each tile based on data-image attribute
-        .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
-    })
-
-//contact
-//	function sendMail() {
-//			var name = document.getElementById("name").value;
-//			var email = document.getElementById("email").value;
-//			var num = document.getElementById("num").value;
-//			var sub = document.getElementById("sub").value;
-//			var msg = document.getElementById("msg").value;
-//			window.location.href = "mailto:" + email + "?subject=" + sub + "&body=I'm " + name + " " + msg;
-//		}
+//contect
+	function sendMail() {
+			var name = document.getElementById("name").value;
+			var email = document.getElementById("email").value;
+			var num = document.getElementById("num").value;
+			var sub = document.getElementById("sub").value;
+			var msg = document.getElementById("msg").value;
+			window.location.href = "mailto:" + email + "?subject=" + sub + "&body=I'm " + name + " " + msg;
+		}
