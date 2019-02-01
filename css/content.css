@@ -23,8 +23,10 @@
 }
 
 .content-card {
+	margin: auto;
 	width: 80%;
 	transition: 1s all;
+	margin-top: 50px;
 }
 
 .content-card:hover{

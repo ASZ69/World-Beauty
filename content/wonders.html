@@ -17,7 +17,7 @@
 <!--angularjs-->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
 <!--angularjs end-->
-	<script scr="content.js"></script>
+<script src="../js/content.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 	<link rel="stylesheet" type="text/css" href="../css/content.css">
 	<link rel="stylesheet" type="text/css" href="../css/color.css">
@@ -275,7 +275,10 @@
 			</form>
 		</div>
 	</nav>
-	<div class="container-fluid" ng-app="content" ng-controller="navControl" >
+	
+	
+	
+	<div class="container-fluid" ng-app="myApp" ng-controller="navControl">
 	    <div class="row bg-danger overflow-hidden">
 		  <div class="col-sm-4">
 			 <div class="top-4-left"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;">
@@ -335,24 +338,50 @@
 				<li>Zimbabwe</li>
 				<li>Peru</li>
 				<li>Egypt</li>
+				</ul><br>
+				<h3>Countries Of Africa</h3>
+				<ul>
+				<li>South Africa</li>
+				<li>Zimbabwe</li>
+				<li>Peru</li>
+				<li>Egypt</li>
 				</ul>
 			</div>
 			<div class="col-sm-8">
-				<div class="content-card">
-			     	<div class="card-img-p">
-						<img src="../images/africa/vic_falls_feat_Safrica.jpg" alt="img" width="100%">
-					</div>
-					<div class="card-text"><h2> maritus island</h2>
-						
-						<span>Rating: <span>4.5</span> </span>
-						
-						<p>DescriptionMauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs.</p>
-					 <button>Wiki Bhai</button>
+				<div>
 					
+					<div class="content-card" ng-repeat="place in contentArray[0].places">
+						<div class="card-img-p">
+							<img src="{{place.imgSrc}}" alt="img" width="100%">
+						</div>
+						<div class="card-text"><h2>{{place.pName}}</h2>
+
+							<span>Rating: <span>{{place.rating}}</span> </span>
+
+							<p>{{place.smallDescrip}}</p>
+						 <button>View Card</button>
+							<a href="{{place.wiki}}">Wiki Bhai</a>
+
+						</div>
 					</div>
+					
 				</div>
 			</div>
 			<div class="col-sm-2">
+				<h3>Countries Of Africa</h3>
+				<ul>
+				<li>South Africa</li>
+				<li>Zimbabwe</li>
+				<li>Peru</li>
+				<li>Egypt</li>
+				</ul><br>
+				<h3>Countries Of Africa</h3>
+				<ul>
+				<li>South Africa</li>
+				<li>Zimbabwe</li>
+				<li>Peru</li>
+				<li>Egypt</li>
+				</ul>
 			</div>
 		</div>
 	</div>
