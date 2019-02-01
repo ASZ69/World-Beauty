@@ -1,4 +1,5 @@
-/* CSS Document */
+/*
+ CSS Document 
 
 .main-heading {
 	position: relative;
@@ -26,7 +27,9 @@
 	left: 0px !important;
 	padding: 20px 0;
 }
+*/
 
+/*
 
 
 .sides ul{
@@ -62,10 +65,9 @@
 }
 
 
+*/
 
-.carousel-inner {
-	max-height: 550px;
-}
+
 .Button
 	 {
 	background:rgba(26,26,24,1.00)  ;

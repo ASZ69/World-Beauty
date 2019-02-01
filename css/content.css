@@ -1,0 +1,45 @@
+
+.carousel {
+	height: 500px;
+	width: 100%;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.top-4-left {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.top-4-right {
+		width: 50%;
+	box-sizing: border-box;
+	float: right;
+
+}
+
+.content-card {
+	width: 80%;
+	transition: 1s all;
+}
+
+.content-card:hover{
+	transform: scale(1.1);
+}
+
+.card-text {
+	width: 70%;
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+}
+
+.card-img-p {
+	display: inline-block;
+	width: 30%;
+	box-sizing: border-box;
+}
