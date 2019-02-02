@@ -335,7 +335,7 @@
 		    <div class="col-sm-2">
 				<h1>Africa</h1>
 				<ul>
-				<li><h4 class="heading">South Africa</h4>
+				<li><h4 class="heading" ng-click="showContent($event)">Pakistan</h4>
 					<ul>
 					   <li class="places">Maritus Island</li>
 					   <li class="places">Nasa Ka Daftr</li>
@@ -343,7 +343,7 @@
 					   <li class="places">Pyramaids</li>
 					</ul>
 					</li>
-				<li><h3 class="heading">Zimbabwe</h3>
+				<li><h3 class="heading" ng-click="showContent($event)">India</h3>
 					<ul>
 					   <li class="places">Maritus Island</li>
 					   <li class="places">Pyramids</li>
@@ -374,7 +374,7 @@
 				</ul>
 			</div>
 			<div class="col-sm-8">
-				<div>
+				<div style="display: nonae;">
 					
 					<div class="content-card" ng-repeat="place in contentArray[0].places">
 						<div class="card-img-p">
@@ -392,6 +392,13 @@
 					</div>
 					
 				</div>
+				
+<!--				div for new page-->
+				
+				<div>
+					New Page is here
+				</div>
+				
 			</div>
 			<div class="col-sm-2">
 				<h3>Countries Of Africa</h3>
