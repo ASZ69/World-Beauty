@@ -29,12 +29,19 @@ var myData = [
 		  moreDetails:{
 			  
 			  images:[
-				  "images/j.jpg",
-				  "images/j.jpg",
-				  "images/j.jpg"
+				  {imgSrc:"images/j.jpg",
+				   imgText:"",
+				  rating:"1.5"},
+				  {imgSrc:"images/j.jpg",
+				   imgText:"",
+				  rating:"1.5"},
+				  {imgSrc:"images/j.jpg",
+				   imgText:"",
+				  rating:"1.5"}
 			  ],
 			  
-			  largeDescription:"jkshfkash"
+			  speacialText:""
+			  
 		  }
 		  
 		 },
