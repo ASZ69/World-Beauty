@@ -88,3 +88,12 @@
 	text-align: center;
 	border-bottom: solid black;
 }
+
+.Detail-cont-img {
+	width: 80%;
+	height: auto;
+}
+
+.Detail-cont-text {
+	color: azure;
+}
