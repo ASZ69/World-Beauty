@@ -2,10 +2,13 @@
     /*    declaring some variables for color*/
     --bg-color:#141415 ;
 /*    --hover-color: #05BD9E;*/
-	 --hover-color: #0E7E8C;
+	 --hover-color: rgba(14,126,140,1.00);
     --hover-pre-color: rgba(5, 218, 182, 0.65);
     --text-color: #7C7C7C;
     --primary-color: #DDDDDD;
     --body-color: #fff;
 	--button-color:#020013;
+	
+/*	color for card*/
+	--card-color:  linear-gradient( rgba(72,74,74,1.00),rgba(14,126,140,1.00));
 }

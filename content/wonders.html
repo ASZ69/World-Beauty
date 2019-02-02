@@ -278,18 +278,19 @@
 	
 	
 	
-	<div class="container-fluid" ng-app="myApp" ng-controller="navControl">
-	    <div class="row bg-danger overflow-hidden">
-		  <div class="col-sm-4">
-			 <div class="top-4-left"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;">
-			   <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;">
+	<div class="container-fluid bg-color" ng-app="myApp" ng-controller="navControl">
+		<div class="space"></div>
+	    <div class="row overflow-hidden">
+		  <div class="col-sm-5">
+			 <center><div class="top-4-left"> <div class="top-imgs-1"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%; height:100%"></div>
+			  <div class="top-imgs-2"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%; height: 100%;"></div>
 			  </div> 
-			  <div class="top-4-right"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;">
-			   <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;">
-	          </div>
+			  <div class="top-4-right"> <div class="top-imgs-1"><img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%; height: 100%"></div>
+			  <div class="top-imgs-2"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;height: 100%;;"></div>
+	          </div></center>
 			</div>
 			<!--crousal-->
-			<div class="col-sm-8">
+			<div class="col-sm-7 del-margin">
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -298,14 +299,14 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../images/africa/payramids-round.jpg" alt="Los Angeles" width="1100" height="500">
+        <img src="../images/africa/maxresdefault.jpg" alt="New York" width="1100" height="500">
       <div class="carousel-caption">
         <h3>Los Angeles</h3>
         <p>We had such a great time in LA!</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="../images/africa/payramids-round.jpg" alt="Chicago" width="1100" height="500">
+      <img src="../images/africa/maxresdefault.jpg" alt="New York" width="1100" height="500">
       <div class="carousel-caption">
         <h3>Chicago</h3>
         <p>Thank you, Chicago!</p>
@@ -332,19 +333,44 @@
 	<!--row start-->
 		<div class="row">
 		    <div class="col-sm-2">
-				<h3>Countries Of Africa</h3>
+				<h1>Africa</h1>
 				<ul>
-				<li>South Africa</li>
-				<li>Zimbabwe</li>
-				<li>Peru</li>
-				<li>Egypt</li>
+				<li><h4 class="heading">South Africa</h4>
+					<ul>
+					   <li class="places">Maritus Island</li>
+					   <li class="places">Nasa Ka Daftr</li>
+					   <li class="places">menuze</li>
+					   <li class="places">Pyramaids</li>
+					</ul>
+					</li>
+				<li><h3 class="heading">Zimbabwe</h3>
+					<ul>
+					   <li class="places">Maritus Island</li>
+					   <li class="places">Pyramids</li>
+					   <li class="places">exzana park</li>
+					</ul>
+					</li>
+				<li><h3 class="heading">Peru</h3>
+					<ul>
+					   <li class="places">Maritus Island</li>
+					   <li class="places">Grukok</li>
+					</ul>
+					</li>
+				<li><h3 class="heading">Egypt</h3>
+					<ul>
+					   <li class="places">Maritus Island</li>
+					   <li class="places">King Fisher</li>
+					   <li  class="places">Pyramids</li>
+				
+					</ul>
+					</li>
 				</ul><br>
-				<h3>Countries Of Africa</h3>
+				<h1>Africa</h1>
 				<ul>
-				<li>South Africa</li>
-				<li>Zimbabwe</li>
-				<li>Peru</li>
-				<li>Egypt</li>
+				<li><h3>South Africa</h3></li>
+				<li><h3>Zimbabwe</h3></li>
+				<li><h3>Peru</h3></li>
+				<li><h3>Egypt</h3></li>
 				</ul>
 			</div>
 			<div class="col-sm-8">
@@ -352,15 +378,15 @@
 					
 					<div class="content-card" ng-repeat="place in contentArray[0].places">
 						<div class="card-img-p">
-							<img src="{{place.imgSrc}}" alt="img" width="100%">
+							<img src="{{place.imgSrc}}" alt="img" width="100%" height="180px">
 						</div>
 						<div class="card-text"><h2>{{place.pName}}</h2>
 
 							<span>Rating: <span>{{place.rating}}</span> </span>
 
 							<p>{{place.smallDescrip}}</p>
-						 <button>View Card</button>
-							<a href="{{place.wiki}}">Wiki Bhai</a>
+						 <button class="Button">View Card</button>
+							<a href="{{place.wiki}}" class="Button">WikiPedia</a>
 
 						</div>
 					</div>
@@ -370,17 +396,17 @@
 			<div class="col-sm-2">
 				<h3>Countries Of Africa</h3>
 				<ul>
-				<li>South Africa</li>
-				<li>Zimbabwe</li>
-				<li>Peru</li>
-				<li>Egypt</li>
+				<li class="heading">South Africa</li>
+				<li class="heading">Zimbabwe</li>
+				<li class="heading">Peru</li>
+				<li class="heading">Egypt</li>
 				</ul><br>
 				<h3>Countries Of Africa</h3>
 				<ul>
-				<li>South Africa</li>
-				<li>Zimbabwe</li>
-				<li>Peru</li>
-				<li>Egypt</li>
+				<li class="heading">South Africa</li>
+				<li class="heading">Zimbabwe</li>
+				<li class="heading">Peru</li>
+				<li class="heading">Egypt</li>
 				</ul>
 			</div>
 		</div>

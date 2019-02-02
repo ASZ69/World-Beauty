@@ -1,25 +1,26 @@
 
 .carousel {
-	height: 500px;
+	height: auto;
 	width: 100%;
 }
 
 .carousel-inner img{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 .top-4-left {
 	width: 50%;
 	box-sizing: border-box;
 	float: left;
+	padding-right: 10px;
 }
 
 .top-4-right {
 		width: 50%;
 	box-sizing: border-box;
 	float: right;
-
+     
 }
 
 .content-card {
@@ -27,6 +28,9 @@
 	width: 80%;
 	transition: 1s all;
 	margin-top: 50px;
+	border-radius: 1px 7px 1px 1px;
+	color: azure;
+	background:var(--card-color);
 }
 
 .content-card:hover{
@@ -34,14 +38,53 @@
 }
 
 .card-text {
-	width: 70%;
+	width: 65%;
 	box-sizing: border-box;
 	display: inline-block;
 	float: right;
+	padding-left: 5px;
 }
 
 .card-img-p {
 	display: inline-block;
-	width: 30%;
+	width: 35%;
 	box-sizing: border-box;
+}
+
+.space {
+	height: 56px;
+	width: 100%;
+}
+
+.top-imgs-1 {
+	height: 21vh;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.top-imgs-2 {
+	height: 21vh;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+
+
+
+.heading {
+	background: #363535;
+	font-size: 1.6vw;
+	color: azure;
+	border-radius: 5px;
+	text-align: center;
+	border-bottom: 5px solid black;
+}
+
+.places {
+	background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(222, 218, 182, 0.65));
+	font-size: 1.2vw;
+	color: azure;
+	border-radius: 5px 1px 1px 1px;
+	text-align: center;
+	border-bottom: solid black;
 }
