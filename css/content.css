@@ -42,6 +42,7 @@
 	box-sizing: border-box;
 	display: inline-block;
 	float: right;
+	font-size:1vw; 
 	padding-left: 5px;
 }
 
@@ -87,13 +88,129 @@
 	border-radius: 5px 1px 1px 1px;
 	text-align: center;
 	border-bottom: solid black;
+	list-style: none;
 }
 
 .Detail-cont-img {
 	width: 80%;
 	height: auto;
+	position: relative;
 }
 
 .Detail-cont-text {
 	color: azure;
 }
+
+.rate-DV {
+	font-weight: bolder;
+	right: 1%;
+	position: absolute;
+top: 3%;
+	color: var(--Img-text-color);
+}
+
+.DV-button {
+
+	font-weight: bold;
+	border: none;
+	bottom: 3%;
+	position: absolute;
+	background:var(--bg-color);
+	text-align: center;
+	border-radius: 3px;
+	padding: 5px 20px;
+	color: var(--Img-text-color);
+	font-size: 1vw;
+	text-decoration: none;
+	right: 5%;
+}
+
+.elev-DV {	
+	font-weight: bolder;
+	position: absolute;
+top: 3%;
+	left: 2%;
+	color: var(--Img-text-color);
+}
+
+.cor-DV {
+	font-weight: bolder;
+	left: 1%;
+	position: absolute;
+    bottom: 3%;
+	color: var(--Img-text-color);
+	
+}
+
+.Img-2-Content {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding-left: 9px;
+}
+
+.text-color {
+	color: white;
+}
+
+.side-div {
+	background: var(--side-bg-color);
+position: inherit;
+	height: 530px;
+	width: 100%;
+}
+
+.side-heading {
+	background: rgba(5,157,170,1.00);
+	margin: 20px 10px 10px 50px;
+      box-sizing: border-box;
+	padding: 4px 10px 2px 15px ;
+	
+}
+
+.side-sm-heading {
+	padding: 9px 0px 9px 19px;
+	border-bottom: 1px dashed white;
+	
+}
+
+.side-div-img {
+	width: 250px;
+	height: 180px;
+	padding-top: 5px;
+	
+}
+
+/*
+.sid-col {
+	position: absolute;
+	width: 100%;
+}
+*/
+
+.side-img-heading {
+	padding: 9px 0px 9px 19px;
+	border: none;
+}
+
+.side-div-h {
+	background: var(--hover-color);
+	padding: 5px 2px 5px 2px;
+      margin: 10px 70px 10px 70px;
+	text-align: center;
+}
+
+.country {
+	background: var(--hover-color);
+	display: block;
+	margin-right: 16vw;
+	font-size: 1.2vw;
+	text-align: center;
+}
+
+.side-bt-heading {
+	padding: 9px 0px 9px 19px;
+	border-bottom: 1px dashed white;
+	font-size: 1.8vw;
+}
+

@@ -19,12 +19,12 @@ var myData = [
 	 
 	 places:[
 		 
-		 {pName:"K2",
-		  imgSrc:"../images/africa/vic_falls_feat_Safrica.jpg",
-		  heading:"My K2",
-		  rating:"1.1",
-		  smallDescrip:"DescriptionMauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs.",
-		  wiki:"https://www.en.wikipedia.com/",
+		 {pName:"Karakorams 2",
+		  imgSrc:"../images/asia/pakistan/content-edit/k2-c.jpg",
+		  heading:"Karakorams 2",
+		  rating:"4.9",
+		  smallDescrip:"K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders.",
+		  wiki:"https://en.wikipedia.org/wiki/K2",
 		  
 		  moreDetails:{
 			  
@@ -46,12 +46,12 @@ var myData = [
 		  
 		 },
 		 
-		 {pName:"L2",
-		  imgSrc:"../images/africa/cape-town.jpg",
-		  heading:"My L2",
-		  rating:"9.0",
-		  smallDescrip:"charh kh test kr lo",
-		  wiki:"https://www.en.wikipedia.com/l2",
+		 {pName:"Khewra-Mines",
+		  imgSrc:"../images/asia/pakistan/content-edit/khewra-mines.jpg",
+		  heading:"Khewra-Mines",
+		  rating:"4.5",
+		  smallDescrip:"The mine is famous for its production of pink Himalayan salt, and is a major tourist attraction, Its history dates back to its discovery by Alexander's troops in 320 BC",
+		  wiki:"https://en.wikipedia.org/wiki/Khewra_Salt_Mine",
 		  
 		  moreDetails:{
 			  
@@ -68,12 +68,36 @@ var myData = [
 		  
 		 },
 		 
-		 {pName:"G2",
-		  imgSrc:"../images/africa/cape-town.jpg",
-		  heading:"My L2",
-		  rating:"9.0",
-		  smallDescrip:"charh kh test kr lo",
-		  wiki:"https://www.en.wikipedia.com/l2",
+		 {pName:"Kaghan",
+		  imgSrc:"../images/asia/pakistan/content-edit/kaghan.jpg",
+		  heading:"Kaghan",
+		  rating:"5",
+		  smallDescrip:"The best time to visit Kaghan Valley is during the Summer season (May to September). Because In Winter, the glaciers blocks the roads leading to Kaghan Valley",
+		  wiki:"https://en.wikipedia.org/wiki/Kaghan_Valley",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 	
+		 
+		 
+		 {pName:"Saif-ul-Malook",
+		  imgSrc:"../images/asia/pakistan/content-edit/saif-ul-malook.jpg",
+		  heading:"Kaghan",
+		  rating:"5",
+		  smallDescrip:"The best time to visit Kaghan Valley is during the Summer season (May to September). Because In Winter, the glaciers blocks the roads leading to Kaghan Valley",
+		  wiki:"https://en.wikipedia.org/wiki/Kaghan_Valley",
 		  
 		  moreDetails:{
 			  
