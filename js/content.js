@@ -112,6 +112,94 @@ var myData = [
 			  largeDescription:"jkshfkash"
 		  }
 		  
+		 },
+		 
+		 {pName:"Nalter-Valley",
+		  imgSrc:"../images/asia/pakistan/content-edit/Nalter-valley.jpg",
+		  heading:"Nalter-Valley",
+		  rating:"3.9",
+		  smallDescrip:"Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km (25 mi) from Gilgit and can be reached by jeeps",
+		  wiki:"https://en.wikipedia.org/wiki/Naltar_Valley",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Neelum-Valley",
+		  imgSrc:"../images/asia/pakistan/content-edit/Neelam.jpg",
+		  heading:"Neelum-Valley",
+		  rating:"4.7",
+		  smallDescrip:"Neelam is accessible by Neelam road from Muzaffarabad. A rest house of Tourism and Archeology Department located there for tourists stay. A small market is also there.",
+		  wiki:"https://en.wikipedia.org/wiki/Neelam_(village)",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Tirah-Valley",
+		  imgSrc:"../images/asia/pakistan/content-edit/Teerah.jpg",
+		  heading:"Nalter-Valley",
+		  rating:"4.0",
+		  smallDescrip:"Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km (25 mi) from Gilgit and can be reached by jeeps",
+		  wiki:"https://en.wikipedia.org/wiki/Naltar_Valley",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Nanga-Parbat",
+		  imgSrc:"../images/asia/pakistan/content-edit/Nanga-parbat.jpg",
+		  heading:"Nalter-Valley",
+		  rating:"4.8",
+		  smallDescrip:"Nanga Parbat is one of the eight-thousanders.. Numerous mountaineering deaths lent it the nickname ''Killer Mountain''.”",
+		  wiki:"https://en.wikipedia.org/wiki/Nanga_Parbat",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
 		 }
 		 
 	 ]
