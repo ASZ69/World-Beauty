@@ -21,7 +21,6 @@ var myData = [
 		 
 		 {pName:"Karakorams 2",
 		  imgSrc:"../images/asia/pakistan/content-edit/k2-c.jpg",
-		  heading:"Karakorams 2",
 		  rating:"4.9",
 		  smallDescrip:"K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders.",
 		  wiki:"https://en.wikipedia.org/wiki/K2",
@@ -29,19 +28,17 @@ var myData = [
 		  moreDetails:{
 			  
 			  images:[
-				  {imgSrc:"images/j.jpg",
-				   imgText:"",
-				  rating:"1.5"},
-				  {imgSrc:"images/j.jpg",
-				   imgText:"",
-				  rating:"1.5"},
-				  {imgSrc:"images/j.jpg",
-				   imgText:"",
-				  rating:"1.5"}
+				  "images/gand.jpg",
+				  "images/gand.jpg",
+				  "images/gand.jpg",
+				  "images/gand.jpg"
 			  ],
 			  
-			  speacialText:""
-			  
+			  largeText:"",
+			  smallText:"",
+			  specialImg:"",
+			  cordinates:""
+			 
 		  }
 		  
 		 },
@@ -56,7 +53,6 @@ var myData = [
 		  moreDetails:{
 			  
 			  images:[
-				  "images/j.jpg",
 				  "images/j.jpg",
 				  "images/j.jpg",
 				  "images/j.jpg",

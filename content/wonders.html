@@ -280,8 +280,8 @@
 	
 	<div class="container-fluid bg-color" ng-app="myApp" ng-controller="navControl">
 		<div class="space"></div>
-	    <div class="row overflow-hidden">
-		  <div class="col-sm-5">
+	    <div class="row overflow-hidden dis-none">
+		  <div class="col-sm-5 dis-none">
 			 <center><div class="top-4-left"> <div class="top-imgs-1"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%; height:100%"></div>
 			  <div class="top-imgs-2"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%; height: 100%;"></div>
 			  </div> 
@@ -289,50 +289,14 @@
 			  <div class="top-imgs-2"> <img src="../images/africa/day-in-life-of-safari.jpg" alt="Los Angeles" style="width:100%;height: 100%;;"></div>
 	          </div></center>
 			</div>
-			<!--crousal-->
-			<div class="col-sm-7 del-margin">
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="../images/africa/maxresdefault.jpg" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="../images/africa/maxresdefault.jpg" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="../images/africa/maxresdefault.jpg" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
-      </div>   
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
+		
 
-			</div>
 		</div>
 	<!--row start-->
 		<div class="row">
-		    <div class="col-sm-2">
+			
+			
+			<div class="col-sm-3">
 				<ul>
 				<li><h4 class="heading" ng-click="showContent($event)">Pakistan</h4>
 					<ul>
@@ -369,8 +333,46 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-sm-7 dis-none">
-				<div style=";">
+			
+			
+			
+			
+				<!--crousal-->
+						<div class="col-sm-9 del-margin">
+		<div class="set-data">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/europ/hero1.jpg" alt="Los Angeles" width="100%" height="auto">
+    </div>
+    <div class="carousel-item">
+     <img src="../images/europ/cotswolds1.jpg" alt="Los Angeles" width="100%" height="auto">
+    </div>
+    <div class="carousel-item">
+   <img src="../images/europ/greece-781.jpg" alt="Los Angeles" width="100%" height="auto">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+							<!--card view-->
+				<div class="set-card">
 					
 					<div class="content-card" ng-repeat="place in contentArray[0].places">
 						<div class="card-img-p">
@@ -388,36 +390,9 @@
 					</div>
 					
 				</div>
-				
-<!--			div for new page-->
-<!--				1st Image-->
-				<div>
-					<div class="Detail-cont-img"><span class="rate-DV">Rate:4.3</span><span class="elev-DV">Elevation:8,611 m (28,251 ft)</span><span class="cor-DV">
-Coordinates:35°52′57″N 76°30′48″E</span><button class="DV-button">View</button><img src="../images/nav/Kurakrum.jpg" alt="img" width="100%;"></div>
-					<div class="Detail-cont-text">
-						<h1>Kurakarum Regien</h1>
-						<p>The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China, with the northwest extremity of the range extending to Afghanistan and Tajikistan. It begins in the Wakhan Corridor (Afghanistan) in the west and encompasses the majority of Gilgit–Baltistan (Pakistan) and extends into Ladakh (India), and the disputed Aksai Chin region controlled by China. It is the second highest mountain range in the world, and part of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2]. The Karakoram has eight summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2, the second highest peak in the world at 8,611 m (28,251 ft), Gasherbrum I, Broad Peak and Gasherbrum II.</p></div>
-					
-					
-				</div>
-<!--				1st image ended-->
-<!--				second image start-->
-				<div>
-				   <div>
-					   <div class="Img-2-Content"> <img src="../images/pakistan/K2.jpg" alt="img " width="100%;"></div>
-				       <div class="Img-2-Content"> <img src="../images/pakistan/K2.jpg" alt="img " width="100%;"></div>
-				   </div>
-				   <div class="text-color">
-					 
-				       <b>The name K2 is derived from the notation used by the Great Trigonometric Survey of British India. Thomas Montgomerie made the first survey of the Karakoram from Mount Haramukh, some 210 km (130 miles) to the south, and sketched the two most prominent peaks, labeling them K1 and K2.
-                     The name K2 is derived from the notation used by the Great Trigonometric Survey of British India. Thomas Montgomerie made the first survey of the Karakoram from Mount Haramukh, some 210 km (130 miles) to the south, and sketched the two most prominent peaks, labeling them K1 and K2.</b>
-                       
-				   
-				</div>
-			  </div>
-<!--				second image end-->	
-			</div>
-			<div class="col-sm-3 dis-none">
+				<!--card view end-->				
+							
+					<div class="set-side-bar">
 				<h3>Countries Of Africa</h3>
 				<ul>
 				<li class="heading">South Africa</li>
@@ -432,11 +407,55 @@ Coordinates:35°52′57″N 76°30′48″E</span><button class="DV-button">View
 				<li class="heading">Peru</li>
 				<li class="heading">Egypt</li>
 				</ul>
+			</div>								
+							
+		</div>		
+							
+				
+		<div class="main-dv dis-none">
+									<div> <center><span  class="heading-dv">Kurakrum 2</span> </center></div>
+
+			<div class="set-dv-left">
+			   <div class="set-dv-left-img"> <img src="../images/europ/santorini_2_view_560.jpg" alt="img" width="100%" height="auto"></div>
+			   <div class="set-dv-left-head"><span class="set-dv-left-head-font">Elevation</span></div>
+			   <div class="set-dv-left-text"><p>The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China.</p></div>
 			</div>
 			
-			<div class="col-sm-3 ">
+			
+			<div class="set-dv-center">
+			     <p>	The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China, with the northwest extremity of the range extending to Afghanistan and Tajikistan. It begins in the Wakhan Corridor (Afghanistan) in the west and encompasses the majority of Gilgit–Baltistan (Pakistan) and extends into Ladakh (India), and the disputed Aksai Chin region controlled by China. It is the second highest mountain range in the world, and part of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2]. The Karakoram has eight summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2, the second highest peak in the world at 8,611 m (28,251 ft), Gasherbrum I, Broad Peak and Gasherbrum II.
+				
+				</p>		
+		   </div>
+			
+				<div class="set-dv-right">		
+					<div class="side-div-h"><b><h5>Don't Miss</h5></b></div>
+	     	          <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+				
+			    </div>
+
+			
+    	</div>
+						
+							
+							
+							
+							
+</div>		
+			
+
+<!--			div for new page-->
 		
-			    <div class="side-div">
+<!--
+	
+	           <div class="side-div">
 				    <div class="side-heading"><h4>Kurakrum Region</h4></div>
 
 				    <div class="side-sm-heading"><b>Country:</b>Pakistan,China,India,Nepal</div>
@@ -448,16 +467,8 @@ Coordinates:35°52′57″N 76°30′48″E</span><button class="DV-button">View
 				    <center><div class="side-div-img"><img src="../images/pakistan/K2.jpg" alt="img" width="100%" height="100%"></div></center>
 				    
 				</div>
-				<div class="side-div-h"><b><h5>Don't Miss</h5></b></div>
-	     	          <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-				  <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-		</div>
+				
+-->
 			
 			
 			
