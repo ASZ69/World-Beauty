@@ -304,7 +304,7 @@
         <div class="row">
 
 
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <ul>
                     <li>
                         <h4 class="heading" ng-click="showContent($event)">Pakistan</h4>
@@ -350,11 +350,58 @@
                 </ul>
             </div>
 
-<!--			awais work start-->
-			
-            <!--crousal-->
-            <div class="col-sm-9 del-margin">
-                <div class="set-data">
+            <div class="col-md-9 del-margin">
+
+                <div class="main-page dis-none">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <!--card view-->
+                            <div class="content-card" ng-repeat="place in contentArray[0].places">
+                                <div class="card-img-p">
+                                    <img src="{{place.imgSrc}}" alt="img" width="100%" height="180px">
+                                </div>
+                                <div class="card-text">
+                                    <h2>{{place.pName}}</h2>
+
+                                    <span>Rating: <span>{{place.rating}}</span> </span>
+
+                                    <p>{{place.smallDescrip}}</p>
+                                    <button class="Button">View Card</button>
+                                    <a href="{{place.wiki}}" class="Button">WikiPedia</a>
+
+                                </div>
+                            </div>
+                            <!--							card view end-->
+                        </div>
+
+                        <div class="col-md-4">
+                            <div>
+                                <h3>Countries Of Africa</h3>
+                                <ul>
+                                    <li class="heading">South Africa</li>
+                                    <li class="heading">Zimbabwe</li>
+                                    <li class="heading">Peru</li>
+                                    <li class="heading">Egypt</li>
+                                </ul><br>
+                                <h3>Countries Of Africa</h3>
+                                <ul>
+                                    <li class="heading">South Africa</li>
+                                    <li class="heading">Zimbabwe</li>
+                                    <li class="heading">Peru</li>
+                                    <li class="heading">Egypt</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--			awais work start-->
+
+                <div class="sub-page">
+
+                    <!--				slider start-->
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
                         <!-- Indicators -->
@@ -386,101 +433,38 @@
                         </a>
                     </div>
 
-                    <!--card view-->
-                    <div class="set-card dis-none">
+                    <!--				slider end-->
 
-                        <div class="content-card" ng-repeat="place in contentArray[0].places">
-                            <div class="card-img-p">
-                                <img src="{{place.imgSrc}}" alt="img" width="100%" height="180px">
-                            </div>
-                            <div class="card-text">
-                                <h2>{{place.pName}}</h2>
+                    <div class="main-dv">
+                        <div> <center><span class="heading-dv">Kurakrum 2</span> </center></div>
 
-                                <span>Rating: <span>{{place.rating}}</span> </span>
-
-                                <p>{{place.smallDescrip}}</p>
-                                <button class="Button">View Card</button>
-                                <a href="{{place.wiki}}" class="Button">WikiPedia</a>
-
-                            </div>
+                        <div class="set-dv-left">
+                            <div class="set-dv-left-img"> <img src="../images/europ/santorini_2_view_560.jpg" alt="img" width="100%" height="auto"></div>
+                            <div class="set-dv-left-head"><span class="set-dv-left-head-font">Elevation</span></div>
+                            <div class="set-dv-left-text"><p>The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China.</p></div>
                         </div>
 
-                    </div>
-                    <!--card view end-->
 
-                    <div class="set-side-bar dis-none">
-                        <h3>Countries Of Africa</h3>
-                        <ul>
-                            <li class="heading">South Africa</li>
-                            <li class="heading">Zimbabwe</li>
-                            <li class="heading">Peru</li>
-                            <li class="heading">Egypt</li>
-                        </ul><br>
-                        <h3>Countries Of Africa</h3>
-                        <ul>
-                            <li class="heading">South Africa</li>
-                            <li class="heading">Zimbabwe</li>
-                            <li class="heading">Peru</li>
-                            <li class="heading">Egypt</li>
-                        </ul>
-                    </div>
+                        <div class="set-dv-center">
+                            <p>
+                                The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China, with the northwest extremity of the range extending to Afghanistan and Tajikistan. It begins in the Wakhan Corridor (Afghanistan) in the west and encompasses the majority of Gilgit–Baltistan (Pakistan) and extends into Ladakh (India), and the disputed Aksai Chin region controlled by China. It is the second highest mountain range in the world, and part of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2]. The Karakoram has eight summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2, the second highest peak in the world at 8,611 m (28,251 ft), Gasherbrum I, Broad Peak and Gasherbrum II.
 
+                            </p>
+                        </div>
+
+                        <div class="set-dv-right">
+                            <div class="side-div-h"><b><p>Don't Miss</p></b></div>
+                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+                        </div>
+                    </div>
                 </div>
 
-
-                <div class="main-dv">
-                    <div> <center><span class="heading-dv">Kurakrum 2</span> </center></div>
-
-                    <div class="set-dv-left">
-                        <div class="set-dv-left-img"> <img src="../images/europ/santorini_2_view_560.jpg" alt="img" width="100%" height="auto"></div>
-                        <div class="set-dv-left-head"><span class="set-dv-left-head-font">Elevation</span></div>
-                        <div class="set-dv-left-text"><p>The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China.</p></div>
-                    </div>
-
-
-                    <div class="set-dv-center">
-                        <p>
-                            The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China, with the northwest extremity of the range extending to Afghanistan and Tajikistan. It begins in the Wakhan Corridor (Afghanistan) in the west and encompasses the majority of Gilgit–Baltistan (Pakistan) and extends into Ladakh (India), and the disputed Aksai Chin region controlled by China. It is the second highest mountain range in the world, and part of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2]. The Karakoram has eight summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2, the second highest peak in the world at 8,611 m (28,251 ft), Gasherbrum I, Broad Peak and Gasherbrum II.
-
-                        </p>
-                    </div>
-
-                    <div class="set-dv-right">
-                        <div class="side-div-h"><b><p>Don't Miss</p></b></div>
-                        <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                        <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                        <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                        <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                    </div>
-
-
-                </div>
+                <!--			awais work end-->
 
             </div>
-			
-<!--			awais work end-->
-
-
-            <!--			div for new page-->
-            <!--
-
-                           <div class="side-div">
-                                <div class="side-heading"><h4>Kurakrum Region</h4></div>
-
-                                <div class="side-sm-heading"><b>Country:</b>Pakistan,China,India,Nepal</div>
-                                <div class="side-sm-heading"><b>Coordinates:</b>35°52′57″N 76°30′48″E</div>
-                                <div class="side-sm-heading"><b>Beauty Rating:</b></div>
-                                <div class="side-sm-heading"><b>Web Link:</b></div>
-                                <div class="side-img-heading"><b>Feauture</b></div>
-
-                                <center><div class="side-div-img"><img src="../images/pakistan/K2.jpg" alt="img" width="100%" height="100%"></div></center>
-
-                            </div>
-
-            -->
-
-
-
         </div>
     </div>
 

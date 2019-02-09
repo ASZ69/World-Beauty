@@ -1,95 +1,93 @@
 
 
 
-.carousel-inner img{
-	width: 100%;
-	height: auto;
+.carousel-inner img {
+    width: 100%;
+    height: auto;
 }
 
 .top-4-left {
-	width: 50%;
-	box-sizing: border-box;
-	float: left;
-	padding-right: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 10px;
 }
 
 .top-4-right {
-		width: 50%;
-	box-sizing: border-box;
-	float: right;
-     
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
 }
 
 .content-card {
-	margin: auto;
-	width: 80%;
-	transition: 1s all;
-	margin-top: 50px;
-	border-radius: 1px 7px 1px 1px;
-	color: azure;
-	background:var(--card-color);
+    margin: auto;
+    width: 80%;
+    transition: 1s all;
+    margin-top: 50px;
+    border-radius: 1px 7px 1px 1px;
+    color: azure;
+    background: var(--card-color);
 }
 
-.content-card:hover{
-	transform: scale(1.1);
-}
+    .content-card:hover {
+        transform: scale(1.1);
+    }
 
 .card-text {
-	width: 65%;
-	box-sizing: border-box;
-	display: inline-block;
-	float: right;
-	font-size:1vw; 
-	padding-left: 5px;
+    width: 65%;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    font-size: 1vw;
+    padding-left: 5px;
 }
 
 .card-img-p {
-	display: inline-block;
-	width: 35%;
-	box-sizing: border-box;
+    display: inline-block;
+    width: 35%;
+    box-sizing: border-box;
 }
 
 .space {
-	height: 56px;
-	width: 100%;
+    height: 56px;
+    width: 100%;
 }
 
 .top-imgs-1 {
-	height: 21vh;
-	margin-top: 10px;
-	margin-bottom: 5px;
+    height: 21vh;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .top-imgs-2 {
-	height: 21vh;
-	margin-top: 10px;
-	margin-bottom: 5px;
-
+    height: 21vh;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 
 
 .heading {
-	background: #363535;
-	font-size: 1.6vw;
-	color: azure;
-	padding-bottom:5px;
-	border-radius: 5px;
-	text-align: center;
-	border-bottom: 5px solid black;
-	margin-top:10px;
+    background: #363535;
+    font-size: 1.6vw;
+    color: azure;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    margin-top: 10px;
 }
 
 .places {
-	background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(222, 218, 182, 0.65));
-	font-size: 1.2vw;
-	color: azure;
-	border-radius: 5px 1px 1px 1px;
-	text-align: center;
-	border-bottom: solid black;
-	list-style: none;
-	padding:2px 5px 2px 5px;
-	margin-top:5px;
+    background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(222, 218, 182, 0.65));
+    font-size: 1.2vw;
+    color: azure;
+    border-radius: 5px 1px 1px 1px;
+    text-align: center;
+    border-bottom: solid black;
+    list-style: none;
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
 }
 
 
@@ -103,12 +101,11 @@
 
 
 .cor-DV {
-	font-weight: bolder;
-	left: 1%;
-	position: absolute;
+    font-weight: bolder;
+    left: 1%;
+    position: absolute;
     bottom: 3%;
-	color: var(--Img-text-color);
-	
+    color: var(--Img-text-color);
 }
 
 
@@ -116,31 +113,28 @@
 
 
 .side-div {
-	background: var(--side-bg-color);
-position: inherit;
-	height: 530px;
-	width: 100%;
+    background: var(--side-bg-color);
+    position: inherit;
+    height: 530px;
+    width: 100%;
 }
 
 .side-heading {
-	background: rgba(5,157,170,1.00);
-	margin: 20px 10px 10px 50px;
-      box-sizing: border-box;
-	padding: 4px 10px 2px 15px ;
-	
+    background: rgba(5,157,170,1.00);
+    margin: 20px 10px 10px 50px;
+    box-sizing: border-box;
+    padding: 4px 10px 2px 15px;
 }
 
 .side-sm-heading {
-	padding: 9px 0px 9px 19px;
-	border-bottom: 1px dashed white;
-	
+    padding: 9px 0px 9px 19px;
+    border-bottom: 1px dashed white;
 }
 
 .side-div-img {
-	width: 250px;
-	height: 180px;
-	padding-top: 5px;
-	
+    width: 250px;
+    height: 180px;
+    padding-top: 5px;
 }
 
 /*
@@ -151,122 +145,114 @@ position: inherit;
 */
 
 .side-img-heading {
-	padding: 9px 0px 9px 19px;
-	border: none;
+    padding: 9px 0px 9px 19px;
+    border: none;
 }
 
 .side-div-h {
-	background: var(--hover-color);
-	padding: 10px 2px 1px 5px;
-     margin: 10px 20px 10px 20px;
-	text-align: center;
-	font-size:1.7vw;
+    background: var(--hover-color);
+    padding: 10px 2px 1px 5px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 1.7vw;
 }
 
 .country {
-	background: var(--hover-color);
-	display: block;
-       margin:1px 90px 1px 10px; 
-	font-size: 1.2vw;
-	text-align: center;
+    background: var(--hover-color);
+    display: block;
+    margin: 1px 90px 1px 10px;
+    font-size: 1.2vw;
+    text-align: center;
 }
 
 .side-bt-heading {
-	padding: 9px 0px 9px 19px;
-	border-bottom: 1px dashed white;
-	font-size: 1.5vw;
+    padding: 9px 0px 9px 19px;
+    border-bottom: 1px dashed white;
+    font-size: 1.5vw;
 }
 
 
 .carousel-inner {
-	height: 100%;;
-	width: 100%;
+    height: 100%;
+    ;
+    width: 100%;
 }
 
 .carousel {
-	height: 400px;
-	width: 100%;
-	overflow: hidden;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.set-card {
-	width: 70%;
-	float: left;
-}
 
-.set-side-bar {
-	width: 30%;
-	float: right;
-	
-}
 
-.set-data {
-	display: inline-block;
-     
+
+
+.main-page {
+    display: inline-block;
 }
 
 .set-dv-left {
-	width: 30%;
-	float: left;
-	background: rgba(251,251,251,1.00);
-	display: inline-block;
+    width: 30%;
+    float: left;
+    background: rgba(251,251,251,1.00);
+    display: inline-block;
 }
 
 .set-dv-center {
-	width: 50%;
-     float: left;
-	font-size: 1vw;
-	display: inline-block;
-	overflow: hidden;
-	box-sizing: border-box;
-	background: rgba(54,128,120,1.00);
+    width: 50%;
+    float: left;
+    font-size: 1vw;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgba(54,128,120,1.00);
 }
 
 .set-dv-right {
-	width: 20%;
-	float: right;
+    width: 20%;
+    float: right;
 }
 
 .set-dv-left-img {
-	width: 100%;
-	background: rgba(63,154,13,1.00);
-	height: 18vw;
-	padding: 20px;
-	
+    width: 100%;
+    background: rgba(63,154,13,1.00);
+    height: 18vw;
+    padding: 20px;
 }
 
 .set-dv-left-head {
-	text-align: center;
-	line-height: 3em;
-	background: rgba(179,84,85,1.00);
+    text-align: center;
+    line-height: 3em;
+    background: rgba(179,84,85,1.00);
 }
 
 .main-dv {
-	width: 100%;
+    width: 100%;
 }
 
 .set-dv-left-text {
-	margin: 0 auto;
-	font-size: 1.2vw;
-	background: rgba(167,167,167,1.00);
+    margin: 0 auto;
+    font-size: 1.2vw;
+    background: rgba(167,167,167,1.00);
 }
 
 .set-dv-left-head-font {
-	padding: 5px 5px 5px 5px;   
-	font-size: 1.5vw;
-	font-weight: bolder;
-	border: 5px solid rgba(216,186,32,1.00);
+    padding: 5px 5px 5px 5px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    border: 5px solid rgba(216,186,32,1.00);
 }
 
 .heading-dv {
-	font-size: 3vw;
+    font-size: 3vw;
     font-weight: bolder;
-	text-align: center;
-	border-bottom: double dashed rgba(7,127,121,1.00);
-	box-shadow: 4px 4px 10px 4px green;
+    text-align: center;
+    border-bottom: double dashed rgba(7,127,121,1.00);
+    box-shadow: 4px 4px 10px 4px green;
 }
 
 .carousel-item {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
