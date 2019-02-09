@@ -73,9 +73,11 @@
 	background: #363535;
 	font-size: 1.6vw;
 	color: azure;
+	padding-bottom:5px;
 	border-radius: 5px;
 	text-align: center;
 	border-bottom: 5px solid black;
+	margin-top:10px;
 }
 
 .places {
@@ -86,6 +88,8 @@
 	text-align: center;
 	border-bottom: solid black;
 	list-style: none;
+	padding:2px 5px 2px 5px;
+	margin-top:5px;
 }
 
 
@@ -153,15 +157,16 @@ position: inherit;
 
 .side-div-h {
 	background: var(--hover-color);
-	padding: 5px 2px 5px 2px;
-      margin: 10px 70px 10px 70px;
+	padding: 10px 2px 1px 5px;
+     margin: 10px 20px 10px 20px;
 	text-align: center;
+	font-size:1.7vw;
 }
 
 .country {
 	background: var(--hover-color);
 	display: block;
-	margin-right: 16vw;
+       margin:1px 90px 1px 10px; 
 	font-size: 1.2vw;
 	text-align: center;
 }
@@ -169,7 +174,7 @@ position: inherit;
 .side-bt-heading {
 	padding: 9px 0px 9px 19px;
 	border-bottom: 1px dashed white;
-	font-size: 1.8vw;
+	font-size: 1.5vw;
 }
 
 
@@ -225,7 +230,7 @@ position: inherit;
 .set-dv-left-img {
 	width: 100%;
 	background: rgba(63,154,13,1.00);
-	height: 15vw;
+	height: 18vw;
 	padding: 20px;
 	
 }
