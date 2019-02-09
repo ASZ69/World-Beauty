@@ -206,12 +206,11 @@ var myData = [
 	 
 	 places:[
 		 
-		 {pName:"K2",
-		  imgSrc:"../images/africa/cape-town.jpg",
-		  heading:"My K2",
-		  rating:"1.1",
-		  smallDescrip:"alaw jaga hai",
-		  wiki:"https://www.en.wikipedia.com/",
+		 {pName:"Taj-Mahal",
+		  imgSrc:"../images/asia/india/edit-content/taj.jpg",
+		  rating:"5.0",
+		  smallDescrip:"The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
+		  wiki:"https://en.wikipedia.org/wiki/Taj_Mahal",
 		  
 		  moreDetails:{
 			  
@@ -226,12 +225,53 @@ var myData = [
 		  
 		 },
 		 
-		 {pName:"L2",
-		  imgSrc:"../images/africa/cape-town.jpg",
-		  heading:"My L2",
-		  rating:"9.0",
-		  smallDescrip:"charh kh test kr lo",
-		  wiki:"https://www.en.wikipedia.com/l2",
+		 {pName:"Havelock-Island",
+		  imgSrc:"../images/asia/india/edit-content/Have-lock.jpg",
+		  rating:"4.7",
+		  smallDescrip:"Havelock Island, officially Swaraj Island, is the one of the largest islands that comprise a chain of islands to the east of Great Andaman in the Andaman Islands.",
+		  wiki:"https://en.wikipedia.org/wiki/Havelock_Island",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		  {pName:"Hawa-Mahal",
+		  imgSrc:"../images/asia/india/edit-content/hawa-mahal.jpg",
+		  rating:"4.4",
+		  smallDescrip:"The structure was built in 1799 by Maharaja Sawai Pratap Singh. He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.",
+		  wiki:"https://en.wikipedia.org/wiki/Hawa_Mahal",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Kaziranga National Park",
+		  imgSrc:"../images/asia/india/edit-content/kaziranga.jpg",
+		  rating:"4.4",
+		  smallDescrip:"Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers, including the Brahmaputra, and the park includes numerous small bodies of water. .",
+		  wiki:"https://en.wikipedia.org/wiki/Hawa_Mahal",
 		  
 		  moreDetails:{
 			  
@@ -248,8 +288,102 @@ var myData = [
 		  
 		 }
 		 
+		 
+		 
+	 ]
+	
+	},
+
+	
+		{name:"India",
+	 
+	 places:[
+		 
+		 {pName:"Taj-Mahal",
+		  imgSrc:"../images/asia/india/edit-content/taj.jpg",
+		  rating:"5.0",
+		  smallDescrip:"The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
+		  wiki:"https://en.wikipedia.org/wiki/Taj_Mahal",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Havelock-Island",
+		  imgSrc:"../images/asia/india/edit-content/Have-lock.jpg",
+		  rating:"4.7",
+		  smallDescrip:"Havelock Island, officially Swaraj Island, is the one of the largest islands that comprise a chain of islands to the east of Great Andaman in the Andaman Islands.",
+		  wiki:"https://en.wikipedia.org/wiki/Havelock_Island",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		  {pName:"Hawa-Mahal",
+		  imgSrc:"../images/asia/india/edit-content/hawa-mahal.jpg",
+		  rating:"4.4",
+		  smallDescrip:"The structure was built in 1799 by Maharaja Sawai Pratap Singh. He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.",
+		  wiki:"https://en.wikipedia.org/wiki/Hawa_Mahal",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 },
+		 
+		 {pName:"Kaziranga National Park",
+		  imgSrc:"../images/asia/india/edit-content/kaziranga.jpg",
+		  rating:"4.4",
+		  smallDescrip:"Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers, including the Brahmaputra, and the park includes numerous small bodies of water. .",
+		  wiki:"https://en.wikipedia.org/wiki/Hawa_Mahal",
+		  
+		  moreDetails:{
+			  
+			  images:[
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg",
+				  "images/j.jpg"
+			  ],
+			  
+			  largeDescription:"jkshfkash"
+		  }
+		  
+		 }
+		 
+		 
+		 
 	 ]
 	
 	}
-
 ];
