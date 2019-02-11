@@ -196,7 +196,7 @@ var myData = [
                 pName: "Mnemba Island",
                 imgSrc: "../images/africa/tanzania/Mnemba-Island/edited/Mnemba-Island.jpg",
                 rating: "4.7",
-                smallDescrip: "Mnemba Island is a popular scuba diving site, with a wide variety of corals and associated species, as well as occasional sightings of larger species such as turtles and dolphins.",
+                smallDescrip: "Mnemba Island is a popular scuba diving site, with a wide variety of corals and associated species..",
                 wiki: "https://en.wikipedia.org/wiki/Mnemba_Island",
 
                 moreDetails: {
@@ -213,7 +213,7 @@ var myData = [
             },
 
             {
-                pName: "Ngorongoro Conservation Area",
+                pName: "Ngorongoro",
                 imgSrc: "../images/africa/tanzania/Ngorongoro-Conservation-Area/edited/Ngorongoro-Conservation-Area.jpg",
                 rating: "4.4",
                 smallDescrip: "The Ngorongoro Conservation Area west of Arusha in the Crater Highlands area of Tanzania",
@@ -287,7 +287,7 @@ var myData = [
                 pName: "Lion's head",
                 imgSrc: "../images/africa/South-Africa/Lion's-head/edited/Lion's-head-e.jpg",
                 rating: "4.5",
-                smallDescrip: "Bunaken is an island of 8 km², part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia. It belongs administratively to the municipality of Manado.",
+                smallDescrip: "Bunaken is an island of 8 km², part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia.",
 
                 moreDetails: {
 
@@ -304,7 +304,7 @@ var myData = [
 
             {
                 pName: "Table Mountain",
-              imgSrc: "../images/africa/South-Africa/Table-Mountain/edited/Table-Mountain-e",
+              imgSrc: "../images/africa/South-Africa/Table-Mountain/edited/Table-Mountain-e.jpg",
                 rating: "4.8",
                 smallDescrip: " Flat-topped mountain forming a prominent landmark overlooking the city of Cape Town in South Africa. It is a significant tourist attraction",
 
@@ -324,7 +324,22 @@ var myData = [
 
     }
 	
-	
-	
-	
 ];
+
+function dataHide(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="none";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="block";
+}
+
+function mainCat(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="block";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="none";
+}
+
+
+
+

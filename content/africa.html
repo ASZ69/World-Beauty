@@ -306,38 +306,43 @@
 
             <div class="col-md-3">
                 <ul>
-                    <li>
-                        <h4 class="heading" ng-click="showContent($event)">Egypt</h4>
+                    <li style="list-style-type: none;" >
+                        <h4 onClick="mainCat()" class="heading" ng-click="showContent($event)">Egypt</h4>
 
                         <ul>
-                            <li class="places" ng-click="showSubContent($event)">Giza-Necropolis</li>
-                            <li class="places" ng-click="showSubContent($event)">Giza-Sphinx</li>
-							<li class="places" ng-click="showSubContent($event)">Blue-Hole</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Giza-Necropolis</li>
+							
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Giza-Sphinx</li>
+							
+							<li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Blue-Hole</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading" ng-click="showContent($event)">East-Africa</h3>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()"  class="heading" ng-click="showContent($event)">East-Africa</h4>
                         <ul>
-                            <li class="places" ng-click="showSubContent($event)">Mauritius Island</li>
-                            <li class="places" ng-click="showSubContent($event)">Mount-Kilimanjaro</li>
-							<li class="places" ng-click="showSubContent($event)">Victorial-Falls</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Mauritius Island</li>
+                            <li  onClick="dataHide()" class="places" ng-click="showSubContent($event)">Mount-Kilimanjaro</li>
+							<li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Victorial-Falls</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading" ng-click="showContent($event)">Tanzania</h3>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()"  class="heading" ng-click="showContent($event)">Tanzania</h4>
                         <ul>
-                            <li class="places" ng-click="showSubContent($event)">Arusha National Park</li>
-                            <li class="places" ng-click="showSubContent($event)">Mnemba Island</li>
-                            <li class="places" ng-click="showSubContent($event)">Ngorongoro Conservation Area</li>
-                            <li class="places" ng-click="showSubContent($event)">Serengeti</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Arusha National Park</li>
+							
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Mnemba Island</li>
+							
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Ngorongoro</li>
+							
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Serengeti</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading" ng-click="showContent($event)">South-Africa</h3>
+                    <li style="list-style-type: none;">
+                        <h4  onClick="mainCat()" class="heading" ng-click="showContent($event)">South-Africa</h4>
                         <ul>
-                            <li class="places" ng-click="showSubContent($event)">Kirstenbosch Gardan</li>
-                            <li class="places" ng-click="showSubContent($event)">Lion's head</li>
-                            <li class="places" ng-click="showSubContent($event)">Table Mountain</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Kirstenbosch Gardan</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Lion's head</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">Table Mountain</li>
 
                         </ul>
                     </li>
@@ -346,7 +351,7 @@
 
             <div class="col-md-9 del-margin">
 
-                <div class="main-page dis-none">
+                <div class="main-page">
                     <div class="row">
 
                         <div class="col-md-8">
@@ -361,7 +366,7 @@
                                     <span>Rating: <span>{{place.rating}}</span> </span>
 
                                     <p>{{place.smallDescrip}}</p>
-                                    <button class="Button">View Card</button>
+                                    <button onClick="dataHide()" class="Button">View Card</button>
                                     <a href="{{place.wiki}}" class="Button">WikiPedia</a>
 
                                 </div>
@@ -371,14 +376,14 @@
 
                         <div class="col-md-4">
                             <div>
-                                <h3>Countries Of Africa</h3>
+                                <h3 style="color: whitesmoke;">Countries Of Africa</h3>
                                 <ul>
                                     <li class="heading">South Africa</li>
                                     <li class="heading">Zimbabwe</li>
                                     <li class="heading">Peru</li>
                                     <li class="heading">Egypt</li>
                                 </ul><br>
-                                <h3>Countries Of Africa</h3>
+                                <h3 style="color: whitesmoke;">Countries Of Africa</h3>
                                 <ul>
                                     <li class="heading">South Africa</li>
                                     <li class="heading">Zimbabwe</li>
@@ -393,7 +398,7 @@
 
             <!--			awais work start-->
 
-                <div class="sub-page">
+                <div class="sub-page dis-none">
 					
 					<center>
                         <div style="margin: 15px;">

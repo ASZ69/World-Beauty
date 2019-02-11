@@ -68,6 +68,7 @@
 
 
 .heading {
+	list-style-type:none;
     background: #363535;
     font-size: 1.6vw;
     color: azure;
@@ -79,13 +80,14 @@
 }
 
 .places {
+	
     background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(222, 218, 182, 0.65));
     font-size: 1.2vw;
     color: azure;
     border-radius: 5px 1px 1px 1px;
     text-align: center;
     border-bottom: solid black;
-    list-style: none;
+    list-style-type: none;
     padding: 2px 5px 2px 5px;
     margin-top: 5px;
 }
