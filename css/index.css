@@ -273,6 +273,7 @@
 
 .test {
     width: 15%;
+
 }
 
 .colorBg {
@@ -287,11 +288,14 @@
     width: 100%;
 }
 
-.vi-img-head {
-    margin-left: 2%;
-    width: 100%;
-    font-size: 2vw;
-}
+	.vi-img-head {
+		color: aliceblue;
+		text-align: center;
+		margin-left: 2%;
+		width: 100%;
+		font-size: 3vw;
+		font-weight: bolder;
+	}
 
 .vi-img-head {
     margin-left: 2%;
@@ -496,7 +500,7 @@
 
 .respo-font-h6 {
     font-size: 2vw;
-    color: rgba(123,116,90,1.0);
+    color: gray;
 }
 
 
@@ -658,6 +662,8 @@ body {
 .set-end {
     width: 100%;
     height: 350px;
+	max-height: 350px;
+	max-width: 400px;
 }
 
 .set-top-btn {
@@ -679,10 +685,74 @@ body {
     background: #F2EFEA;
 }
 
-.padup {
-    padding: 5px 0px 0px 0px !important;
-}
+
 
 .color {
     color: var(--hover-color);
+}
+
+
+.padup {
+	margin-top: 0%;
+	padding-top: 0px!important;
+    position: relative;
+}
+
+
+.set-g-img {
+	width: 100%;
+	height: 300px;
+}
+
+.padding-Del-g {
+	padding: 0px !important;
+    margin: 0px !important;
+    padding-bottom:0px !important;
+    color: var(--text-color);
+
+}
+
+.padup-inner {
+	padding: 50px;
+}
+
+.overlay {		
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 43%;
+	bottom: 0%;
+	background: rgba(0,0,0,0.49);
+}
+.overlay>h4{
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+.overlay>p{
+	position: absolute;
+	font-size: 1em;
+	font-style: italic;
+	bottom: 9%;
+}
+.overlay:hover{
+	display: contents;
+}
+
+.vi-im-sH {
+	color: aliceblue;
+	text-align: center;
+    margin-left: 2%;
+    width: 100%;
+	font-style: italic;
+    font-size: 2.5vw;
+	font-weight: bolder;
+}
+
+.v-im-sH {
+	
+}
+
+.im-sH {
+	color: rgba(205,204,204,1.00);
+	font-style: italic;
 }

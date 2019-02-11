@@ -30,7 +30,7 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/gand.jpg",
+                        "../images/asia/pakistan/content-edit/kh-1.jpg",
                         "images/gand.jpg",
                         "images/gand.jpg",
                         "images/gand.jpg"

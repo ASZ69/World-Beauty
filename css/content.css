@@ -174,14 +174,13 @@
 
 .carousel-inner {
     height: 100%;
-    ;
+    
     width: 100%;
 }
 
 .carousel {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
+	margin: 25px auto;
+    width: 95%;
 }
 
 
@@ -216,43 +215,71 @@
 
 .set-dv-left-img {
     width: 100%;
-    background: rgba(63,154,13,1.00);
-    height: 18vw;
-    padding: 20px;
+    height: auto;
 }
+
 
 .set-dv-left-head {
     text-align: center;
     line-height: 3em;
-    background: rgba(179,84,85,1.00);
 }
 
-.main-dv {
-    width: 100%;
-}
 
 .set-dv-left-text {
     margin: 0 auto;
     font-size: 1.2vw;
-    background: rgba(167,167,167,1.00);
+	padding: 1px 10px;
 }
 
 .set-dv-left-head-font {
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     font-size: 1.5vw;
     font-weight: bolder;
-    border: 5px solid rgba(216,186,32,1.00);
-}
+	color: white;
+  }
 
 .heading-dv {
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-weight: bolder;
-    text-align: center;
     border-bottom: double dashed rgba(7,127,121,1.00);
-    box-shadow: 4px 4px 10px 4px green;
+    box-shadow: 4px 4px 10px 4px var(--hover-color);
+	color: white;
+	padding: 2px 8px 10px; 
 }
 
 .carousel-item {
     width: 100%;
     height: 100%;
 }
+.sub-page {
+	padding: 20px;
+}
+
+.pd-5 {
+	padding: 5px;
+}
+
+.box-color {
+	background: var(--hover-color);
+}
+
+.head-sb-page h6{
+									color: rgba(30,176,188,1.00);
+								}
+								.head-sb-page h4{
+									color:  white;
+									padding: 5px 10px;
+									border-radius: 5px;
+								}
+								hr{
+									height: 1px;
+									width: 90%;
+									margin: auto;
+									background-color: #57B7AF;
+									margin-top: 4px;
+									margin-bottom: 4px;
+								}
+								p.text-color{
+									color: rgba(34,153,177,1.00);
+								}
+
