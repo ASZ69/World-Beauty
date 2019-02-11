@@ -7,8 +7,21 @@ content.controller("navControl", function ($scope, $filter) {
         var navigation = referClick.innerHTML;
         $scope.contentArray = $filter('filter')(myData, { name: navigation });
     }
+ 
+	
+	$scope.showSubContent = function (event) {
+        var clickedRefer = event.currentTarget;
+        var subCat = clickedRefer.innerHTML;
 
-    $scope.contentArray = $filter('filter')(myData, { name: 'Pakistan' });
+        var mainCat = clickedRefer.parentElement.parentElement.getElementsByTagName("h4")[0].innerHTML;
+		
+        $scope.contentArray = $filter('filter')(myData, { name: mainCat });
+
+        $scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName: subCat });
+    };
+	
+	
+    $scope.contentArray = $filter('filter')(myData, { name: 'East-Europe' });
 
 });
 
@@ -352,9 +365,23 @@ var myData = [
 			
         ]
 
-    }
-	
-	
-	
-	
+    }	
 ];
+
+
+function dataHide(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="none";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="block";
+}
+
+function mainCat(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="block";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="none";
+}
+
+
+

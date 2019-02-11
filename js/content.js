@@ -7,6 +7,19 @@ content.controller("navControl", function ($scope, $filter) {
         var navigation = referClick.innerHTML;
         $scope.contentArray = $filter('filter')(myData, { name: navigation });
     }
+	
+	
+	$scope.showSubContent = function (event) {
+        var clickedRefer = event.currentTarget;
+        var subCat = clickedRefer.innerHTML;
+
+        var mainCat = clickedRefer.parentElement.parentElement.getElementsByTagName("h4")[0].innerHTML;
+		
+        $scope.contentArray = $filter('filter')(myData, { name: mainCat });
+		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName:subCat });
+    };
+	
+	
 
     $scope.contentArray = $filter('filter')(myData, { name: 'Pakistan' });
 
@@ -27,22 +40,17 @@ var myData = [
                 smallDescrip: "K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders.",
                 wiki: "https://en.wikipedia.org/wiki/K2",
 
-                moreDetails: {
+                     moreDetails: {
 
                     images: [
-                        "../images/asia/pakistan/content-edit/kh-1.jpg",
-                        "images/gand.jpg",
-                        "images/gand.jpg",
-                        "images/gand.jpg"
+                        "../images/asia/edit/k2-3.jpg",
+  						"../images/asia/edit/k2-2.jpg",
+                         "../images/asia/edit/k2-1.jpg"
+                       
                     ],
-
-                    largeText: "",
-                    smallText: "",
-                    specialImg: "",
-                    cordinates: ""
-
+                     cd:"35.8800° N, 76.5151° E",
+                    largeDescription: "K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders, with around 300 successful summits and 77 fatalities; about one person dies on the mountain for every four who reach the summit.[5] It is more difficult and hazardous to reach the peak of K2 from the Chinese side, so it is usually climbed from the Pakistani side.The name K2 is derived from the notation used by the Great Trigonometric Survey of British India. T"
                 }
-
             },
 
             {
@@ -56,13 +64,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/kh-1.jpg",
+                        "../images/asia/edit/kh-2.jpg",
+                        "../images/asia/edit/kh-1.jpg"
+                      
                     ],
-
-                    largeDescription: "jkshfkash"
+                    cd:"32.6305° N, 73.0110° E",
+                    largeDescription: "The Khewra Salt Mine is located in Khewra, north of Pind Dadan Khan, an administrative subdivision of Jhelum District, Punjab Region, Pakistan. The mine is located in the Salt Range, an outer range of the Himalaya Mountains which rises from the Indo-Gangetic Plain. A portion of Khewra salt mine has been converted into tourist spot by the PMDC, wherein visitors have an opportunity to visit a portion of tunnel, developed in 1914 at level 06"
                 }
 
             },
@@ -78,12 +86,10 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
-                    ],
+                        "../images/asia/edit/tee-1.jpg",
+                       "../images/asia/edit/tee-1.jpg",
+                       "../images/asia/edit/tee-1.jpg"
+                        ],
 
                     largeDescription: "jkshfkash"
                 }
@@ -527,3 +533,22 @@ var myData = [
 	
 	
 ];
+
+
+
+function dataHide(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="none";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="block";
+}
+
+function mainCat(){
+	var mainPage= document.getElementsByClassName('main-page')[0];
+	mainPage.style.display="block";
+	var discPage= document.getElementsByClassName('sub-page')[0];
+	discPage.style.display="none";
+}
+
+
+

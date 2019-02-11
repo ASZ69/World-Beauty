@@ -1,71 +1,4 @@
-/*
- CSS Document 
 
-.main-heading {
-	position: relative;
-	top: 50px;
-	left: 0;
-	width: 100%;
-	height:50vh;
-	overflow: hidden;
-}
-
-.main-img-p {
-	position: fixed;
-	top: 50px;
-	left: 0;
-	width: 100%;
-	height:100vh;
-	overflow: hidden;
-}
-
-
-.sub-body {
-	position: relative;
-	z-index: 1;
-	top: 50px !important;
-	left: 0px !important;
-	padding: 20px 0;
-}
-*/
-
-/*
-
-
-.sides ul{
-	padding: 0 7px;
-}
-.paddingDel>Div>p{
-	display: inline-block;
-	float: left;
-}
-
-.sides ul li {
-	text-decoration: none;
-	height: 45px;
-	list-style: none;
-	border-bottom: 1px solid #ccc;
-	line-height: 45px;
-	padding-left: 10px;
-}
-
-.sides ul li:hover{
-	background-color: #ccc;
-	cursor: pointer;
-}
-
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-
-.slider-p {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-
-
-*/
 
 
 .Button {
@@ -163,7 +96,7 @@
 }
 
 .Tri-line-img {
-    border-radius: 6px;
+    border-radius: 1px 15px 1px 15px;
     box-shadow: 0 8px 16px 0 var(--hover-color);
 }
 
@@ -531,6 +464,7 @@
 .st-tri-div {
     padding-left: 10px;
     padding-right: 10px;
+	padding: 30px;
 }
 
 .Tri-line {
@@ -562,6 +496,11 @@
 
 .img-effect {
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+}
+
+.img-effect>img:hover ~ .overlay {
+	display: block;
+	
 }
 
 
@@ -716,13 +655,14 @@ body {
 	padding: 50px;
 }
 
-.overlay {		
+.overlay {	
 	display: none;
 	position: absolute;
 	width: 100%;
 	height: 43%;
 	bottom: 0%;
 	background: rgba(0,0,0,0.49);
+	transition: 2s;
 }
 .overlay>h4{
 	font-size: 2.5vw;
@@ -735,7 +675,8 @@ body {
 	bottom: 9%;
 }
 .overlay:hover{
-	display: contents;
+	display: block;
+	opacity: 4;
 }
 
 .vi-im-sH {
@@ -748,11 +689,11 @@ body {
 	font-weight: bolder;
 }
 
-.v-im-sH {
-	
-}
+
 
 .im-sH {
 	color: rgba(205,204,204,1.00);
 	font-style: italic;
 }
+
+

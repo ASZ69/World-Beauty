@@ -19,7 +19,7 @@ content.controller("navControl", function ($scope, $filter) {
         $scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName: subCat });
     };
 	
-    $scope.contentArray = $filter('filter')(myData, { name: 'Pakistan' });
+    $scope.contentArray = $filter('filter')(myData, { name: 'Egypt' });
 
 });
 

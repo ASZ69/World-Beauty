@@ -306,8 +306,8 @@
 
             <div class="col-md-3">
                 <ul>
-                    <li>
-                        <h4 class="heading" ng-click="showContent($event)">East-Europe</h4>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()" class="heading" ng-click="showContent($event)">East-Europe</h4>
 
                         <ul>
                             <li class="places">Uyuni-Blovia</li>
@@ -315,16 +315,16 @@
 							<li class="places">Plitvice-Crotia</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading" ng-click="showContent($event)">Greece</h3>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()" class="heading" ng-click="showContent($event)">Greece</h4>
                         <ul>
                             <li class="places">Balos Beach</li>
                             <li class="places">Imerovigli</li>
 							<li class="places">Melissani Cave</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading">West-Europe</h3>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()" class="heading" ng-click="showContent($event)">West-Europe</h4>
                         <ul>
                             <li class="places">Kirkjufell-Iceland</li>
                             <li class="places">Aillwee Cave-Ireland</li>
@@ -332,13 +332,13 @@
                             <li class="places">Sintra-Portugal</li>
                         </ul>
                     </li>
-                    <li>
-                        <h3 class="heading">Middle-Europe</h3>
+                    <li style="list-style-type: none;">
+                        <h4 onClick="mainCat()" class="heading" ng-click="showContent($event)">Middle-Europe</h4>
                         <ul>
-                            <li class="places">River Thames-England</li>
-                            <li class="places">Cotswolds-England</li>
-                            <li class="places">Neuschwanstein-Castle</li>
-                            <li class="places">Rhine-Gorge</li>
+                            <li onClick="dataHide()" class="places" ng-click="showSubContent($event)">River Thames-England</li>
+                            <li  onClick="dataHide()" class="places" ng-click="showSubContent($event)">Cotswolds-England</li>
+                            <li  onClick="dataHide()" class="places" ng-click="showSubContent($event)">Neuschwanstein-Castle</li>
+                            <li  onClick="dataHide()" class="places" ng-click="showSubContent($event)">Rhine-Gorge</li>
                         </ul>
                     </li>
                 </ul>
@@ -350,7 +350,7 @@
                     <div class="row">
 
                         <div class="col-md-8">
-                            <!--card view-->
+                             <!--card view-->
                             <div class="content-card" ng-repeat="place in contentArray[0].places">
                                 <div class="card-img-p">
                                     <img src="{{place.imgSrc}}" alt="img" width="100%" height="180px">
@@ -361,7 +361,7 @@
                                     <span>Rating: <span>{{place.rating}}</span> </span>
 
                                     <p>{{place.smallDescrip}}</p>
-                                    <button class="Button">View Card</button>
+                                    <button onClick="dataHide()" class="Button">View Card</button>
                                     <a href="{{place.wiki}}" class="Button">WikiPedia</a>
 
                                 </div>
@@ -391,13 +391,13 @@
                     </div>
                 </div>
 
-              <!--			awais work start-->
+                     <!--			awais work start-->
 
-                <div class="sub-page">
+                <div class="sub-page dis-none">
 					
 					<center>
                         <div style="margin: 15px;">
-                            <span class="heading-dv">Karakoram Range</span>
+                            <span class="heading-dv">{{subContentArray[0].pName}}</span>
                         </div>
                     </center>
 
@@ -409,23 +409,25 @@
                             <li data-target="#slider" data-slide-to="0" class="active"></li>
                             <li data-target="#slider" data-slide-to="1"></li>
                             <li data-target="#slider" data-slide-to="2"></li>
-                            <li data-target="#slider" data-slide-to="3"></li>
+<!--                            <li data-target="#slider" data-slide-to="3"></li>-->
                         </ul>
 
                         <!-- The slideshow -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{{place.images}}" alt="Los Angeles" width="100%" height="auto">
+                                <img src="{{subContentArray[0].moreDetails.images[0]}}" alt="Los Angeles" width="100%" height="auto">
                             </div>
                             <div class="carousel-item">
-                                <img src="../images/Awais/2.jpg" alt="Los Angeles" width="100%" height="auto">
+                                <img src="{{subContentArray[0].moreDetails.images[1]}}" alt="Los Angeles" width="100%" height="auto">
                             </div>
                             <div class="carousel-item">
-                                <img src="../images/Awais/3.jpg" alt="Los Angeles" width="100%" height="auto">
+                                <img src="{{subContentArray[0].moreDetails.images[2]}}" alt="Los Angeles" width="100%" height="auto">
                             </div>
+<!--
                             <div class="carousel-item">
                                 <img src="../images/Awais/4.jpg" alt="Los Angeles" width="100%" height="auto">
                             </div>
+-->
                         </div>
 
                         <!-- Left and right controls -->
@@ -441,17 +443,19 @@
 
                     <div class="row">
                         <div class="col-md-3 pd-5 box-color">
-                            <div class="set-dv-left-img">
-								<img src="../images/Awais/side.jpg" alt="img" width="100%" height="auto">
+                        
+							  <div class="set-dv-left-img">
+								<img src="{{subContentArray[0].imgSrc}}" alt="img" width="100%" height="auto" >
 							</div>
                             <div class="set-dv-left-head">
-								<span class="set-dv-left-head-font">Elevation</span>
+								<span class="set-dv-left-head-font"><i>Over-View</i></span>
 							</div>
                             <div class="set-dv-left-text">
 								<p>
-									The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, and China.
+						             {{subContentArray[0].smallDescrip}}
 								</p>
 							</div>
+						
                         </div>
 
 
@@ -463,11 +467,11 @@
 									<div class="row">
 										<div class="col-sm-6">
 											<h4>Map Co-ordinates</h4>
-											<h6>1.2345,4.3422</h6>
+											<h6>{{subContentArray[0].moreDetails.cd}}</h6>
 										</div>
 										<div class="col-sm-6">
 											<h4>Rating (out of 5)</h4>
-											<h6>4.9 Stars</h6>
+											<h6>{{subContentArray[0].rating}} Stars</h6>
 										</div>
 									</div>
 								</center>
@@ -477,16 +481,17 @@
 							<hr>
 							<br>
                             <p class="text-color">
-                                The Karakoram or Karakorum is a large mountain range spanning the borders of Pakistan, India, and China, with the northwest extremity of the range extending to Afghanistan and Tajikistan. It begins in the Wakhan Corridor (Afghanistan) in the west and encompasses the majority of Gilgit–Baltistan (Pakistan) and extends into Ladakh (India), and the disputed Aksai Chin region controlled by China. It is the second highest mountain range in the world, and part of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2]. The Karakoram has eight summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2.
+								{{subContentArray[0].moreDetails.largeDescription}}
                             </p>
                         </div>
 
+                   
                         <div class="col-md-3">
                             <div class="side-div-h"><b><p>Don't Miss</p></b></div>
-                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
-                            <div class="side-bt-heading"><b>Iguazu Falls</b><span class="country"><b>Brazil</b></span></div>
+                            <div class="side-bt-heading"><b>Kirkjufell</b><span class="country"><b>Ice-Land</b></span></div>
+                            <div class="side-bt-heading"><b>Patagonia</b><span class="country"><b>Chile</b></span></div>
+                            <div class="side-bt-heading"><b>Kaghan</b><span class="country"><b>Pakistan</b></span></div>
+                            <div class="side-bt-heading"><b>Victoria Falls</b><span class="country"><b>East-Africa</b></span></div>
                         </div>
                     </div>
 

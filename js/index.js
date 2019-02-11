@@ -210,3 +210,12 @@ function sendMail() {
     var msg = document.getElementById("msg").value;
     window.location.href = "mailto:" + email + "?subject=" + sub + "&body=I'm " + name + " " + msg;
 }
+
+
+
+$(function () {
+  $(document).scroll(function () {
+	  var $nav = $("nav");
+	  $nav.toggleClass('bg-transparent', $(this).scrollTop() < $nav.height());
+	});
+});
