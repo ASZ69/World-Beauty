@@ -86,12 +86,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "../images/asia/edit/tee-1.jpg",
-                       "../images/asia/edit/tee-1.jpg",
-                       "../images/asia/edit/tee-1.jpg"
+                        "../images/asia/edit/kg-1.jpg",
+                       "../images/asia/edit/kg-2.jpg",
+                       "../images/asia/edit/kg-1.jpg"
                         ],
-
-                    largeDescription: "jkshfkash"
+					cd:"34.7794° N, 73.5270° E",
+                    largeDescription: "Kaghan Valley is an alpine-climate valley in Mansehra District of the Khyber Pakhtunkhwa Province of Pakistan. The tourists from across the country come to visit this place. The valley extends 155 kilometres, rising from an elevation of 2,134 feet to its highest point, the Babusar Pass, at 13,690 feet."
                 }
 
             },
@@ -109,14 +109,14 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/kg-2.jpg",
+                      "../images/asia/edit/sa-1.jpg",
+                       "../images/asia/edit/kg-2.jpg"
+						
+                       
                     ],
-
-                    largeDescription: "jkshfkash"
+                    cd:"34.8762° N, 73.6934° E",
+                    largeDescription: "Saiful Muluk is a mountainous lake located at the northern end of the Kaghan Valley, near the town of Naran in the Saiful Muluk National Park. The lake is a source of the Kunhar river. At an elevation of 3,224 m above sea level, the lake is located above the tree line, and is one of the highest lakes in Pakistan"
                 }
 
             },
@@ -126,20 +126,19 @@ var myData = [
                 imgSrc: "../images/asia/pakistan/content-edit/Nalter-valley.jpg",
                 heading: "Nalter-Valley",
                 rating: "3.9",
-                smallDescrip: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km (25 mi) from Gilgit and can be reached by jeeps",
+                smallDescrip: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan.",
                 wiki: "https://en.wikipedia.org/wiki/Naltar_Valley",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
-                    ],
-
-                    largeDescription: "jkshfkash"
+                     "../images/asia/edit/nv-1.jpg",
+                        "../images/asia/edit/nv-1.jpg",
+                        "../images/asia/edit/nv-1.jpg"
+					],
+					cd:"34.8762° N, 73.6934° E",
+ 
+                    largeDescription: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km from Gilgit and can be reached by jeeps. Naltar is a forested region known for its dramatic mountain scenery. Ski competitions are held at Naltar ski resort."
                 }
 
             },
@@ -149,20 +148,20 @@ var myData = [
                 imgSrc: "../images/asia/pakistan/content-edit/Neelam.jpg",
                 heading: "Neelum-Valley",
                 rating: "4.7",
-                smallDescrip: "Neelam is accessible by Neelam road from Muzaffarabad. A rest house of Tourism and Archeology Department located there for tourists stay. A small market is also there.",
+                smallDescrip: "Neelam is accessible by Neelam road from Muzaffarabad. A rest house of Tourism and Archeology Department located there for tourists stay.",
                 wiki: "https://en.wikipedia.org/wiki/Neelam_(village)",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/nee-1.jpg",
+                        "../images/asia/edit/nee-1.jpg",
+                        "../images/asia/edit/nee-1.jpg"
+                        
+                        
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"37.8762° N, 75.6934° E",
+                    largeDescription: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km from Gilgit and can be reached by jeeps. Naltar is a forested region known for its dramatic mountain scenery. Ski competitions are held at Naltar ski resort."
                 }
 
             },
@@ -172,20 +171,19 @@ var myData = [
                 imgSrc: "../images/asia/pakistan/content-edit/Teerah.jpg",
                 heading: "Nalter-Valley",
                 rating: "4.0",
-                smallDescrip: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan. Naltar is 40 km (25 mi) from Gilgit and can be reached by jeeps",
+                smallDescrip: "Naltar is a valley near Gilgit, Hunza and Nomal, Gilgit Baltistan in the Gilgit–Baltistan province of Pakistan.",
                 wiki: "https://en.wikipedia.org/wiki/Naltar_Valley",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/tee-1.jpg",
+                         "../images/asia/edit/tee-1.jpg",
+                         "../images/asia/edit/tee-1.jpg"
+     
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"32.4762° N, 76.6974° E",
+                    largeDescription: "The Tirah also spells as Terah, Tira, Tera (Pashto: تیراہ‎) region, also called the Tirah Valley (Pashto: وادی تیراہ‎), is located in Khyber, Kurram and Orakzai agencies in the Khyber Pakhtunkhwa province of Pakistan (33.73N 71.01E), while its smaller part straddles the border to the north lying in Nangarhar Province, Afghanistan. Tirah lies between the Khyber Pass and the Khanki Valley. It is inhabited by the Afridi, Orakzai and Shinwari tribes of Pashtuns."
                 }
 
             },
@@ -201,14 +199,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/n-1.jpg",
+                         "../images/asia/edit/n-1.jpg",
+                         "../images/asia/edit/n-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:" 35.2358 N 74.5868 E",
+                    largeDescription: "The core of Nanga Parbat is a long ridge trending southwest–northeast. The ridge is an enormous bulk of ice and rock. It has three faces, Diamir face, Rakhiot, and Rupal. The southwestern portion of this main ridge is known as the Mazeno Wall, and has a number of subsidiary peaks. In the other direction, the main ridge arcs northeast at Rakhiot Peak (7,070 m / 23,196 ft). "
                 }
 
             }
@@ -226,18 +222,18 @@ var myData = [
                 pName: "Taj-Mahal",
                 imgSrc: "../images/asia/india/edit-content/taj.jpg",
                 rating: "5.0",
-                smallDescrip: "The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.",
+                smallDescrip: "The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being the jewel of Muslim art in India.",
                 wiki: "https://en.wikipedia.org/wiki/Taj_Mahal",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/taj-1.jpg",
+						 "../images/asia/edit/taj-2.jpg",
+						 "../images/asia/edit/taj-1.jpg",
                     ],
 
-                    largeDescription: "jkshfkash"
+                    largeDescription: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favourite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan, the builder. and one of the universally admired masterpieces of the world's heritage "
                 }
 
             },
@@ -252,14 +248,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/hl-1.jpg",
+						 "../images/asia/edit/hl-1.jpg",
+						 "../images/asia/edit/hl-1.jpg",
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"11.9761° N, 92.9876° E",
+                    largeDescription: "Havelock Island is part of Ritchie’s Archipelago, in India’s Andaman Islands. It’s known for its dive sites and beaches, like Elephant Beach, with its coral reefs. Crescent-shaped Radhanagar Beach is a popular spot for watching the sunset. On the island’s east side, rocky sections mark long, tree-lined Vijaynagar Beach. The island's forested interior is home to birdlife such as white-headed mynas and woodpeckers."
                 }
 
             },
@@ -268,20 +262,17 @@ var myData = [
                 pName: "Hawa-Mahal",
                 imgSrc: "../images/asia/india/edit-content/hawa-mahal.jpg",
                 rating: "4.4",
-                smallDescrip: "The structure was built in 1799 by Maharaja Sawai Pratap Singh. He was so inspired by the unique structure of Khetri Mahal that he built this grand and historical palace.",
+                smallDescrip: "The structure was built in 1799 by Maharaja Sawai Pratap Singh. He was so inspired by the unique structure of Khetri Mahal.",
                 wiki: "https://en.wikipedia.org/wiki/Hawa_Mahal",
 
                 moreDetails: {
 
-                    images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                    images: [  "../images/asia/edit/hm-1.jpg",
+						 "../images/asia/edit/hm-1.jpg",
+						 "../images/asia/edit/hm-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"26.9239° N, 75.8267° E",
+                    largeDescription: "Hawa Mahal is a palace in Jaipur, India. It is constructed of red and pink sandstone. The palace sits on the edge of the City Palace, Jaipur, and extends to the zenana, or women's chambers. The structure was built in 1799 by Maharaja Sawai Pratap Singh. that he built this grand and historical palace."
                 }
 
             },
@@ -290,20 +281,18 @@ var myData = [
                 pName: "Kaziranga National Park",
                 imgSrc: "../images/asia/india/edit-content/kaziranga.jpg",
                 rating: "4.4",
-                smallDescrip: "Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers, including the Brahmaputra, and the park includes numerous small bodies of water. .",
+                smallDescrip: "Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers .",
                 wiki: "https://en.wikipedia.org/wiki/Hawa_Mahal",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/kn-1.jpg",
+						 "../images/asia/edit/kn-1.jpg",
+						 "../images/asia/edit/kn-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"26.5775° N, 93.1711° E",
+                    largeDescription: "Kaziranga National Park is a protected area in the northeast Indian state of Assam. Spread across the floodplains of the Brahmaputra River, its forests, wetlands and grasslands are home to tigers, elephants and the world’s largest population of Indian one-horned rhinoceroses., including the Brahmaputra, and the park includes numerous small bodies of water. "
                 }
 
             }
@@ -330,12 +319,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/cw-1.jpg",
+						 "../images/asia/edit/cw-1.jpg",
+						 "../images/asia/edit/cw-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"40.4319° N, 116.5704° E",
+                    largeDescription: "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line.The forces of nature and destruction at the hand of mankind are bringing about the gradual reduction of its extent with the result that less than 30% remains in good condition."
                 }
 
             },
@@ -344,20 +333,18 @@ var myData = [
                 pName: "Jiuzhai-Valley",
                 imgSrc: "../images/asia/china/jiuzhai-Valley.jpg",
                 rating: "4.7",
-                smallDescrip: "he Jiuzhaigou valley is part of the Min Mountains on the edge of the Tibetan Plateau. It is known for its many multi-level waterfalls, colorful lakes, and snow-capped peaks",
+                smallDescrip: "he Jiuzhaigou valley is part of the Min Mountains on the edge of the Tibetan Plateau. It is known for its many multi-level waterfalls.",
                 wiki: "https://en.wikipedia.org/wiki/Jiuzhaigou",
 
                 moreDetails: {
-
+					cd:"33.2600° N, 103.9186° E",
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/Cjv-1.jpg",
+						 "../images/asia/edit/Cjv-1.jpg",
+						 "../images/asia/edit/Cjv-1.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                    largeDescription: "Jiuzhaigou National Park is a network of valleys in China’s Sichuan province. In the northern Shuzheng Valley, Nuorilang Waterfall cascades from the edge of a large tree-fringed lake. The Zharu Monastery is a place of worship for the park’s Tibetan villages. In the south, Rize Valley’s mountains are covered with ancient forests. Fallen trees are scattered on the bottom of the striking, multicolored Five Flower Lake."
                 }
 
             },
@@ -372,14 +359,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/asia/edit/Clee-1.jpg",
+						 "../images/asia/edit/Clee-1.jpg",
+						 "../images/asia/edit/Clee-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"50.2919° N, 95.8723° W",
+                    largeDescription: "The River Lee (Irish: An Laoi[3]) is a river in Ireland. It rises in the Shehy Mountains on the western border of County Cork and flows eastwards through Cork, where it splits in two for a short distance, creating an island on which Cork's city centre is built, and empties into the Celtic Sea at Cork Harbour on the south coast."
                 }
 
             },
@@ -388,20 +373,19 @@ var myData = [
                 pName: "Zhangjiajie-Forest",
                 imgSrc: "../images/asia/china/lee-river.jpg",
                 rating: "4.3",
-                smallDescrip: "The most notable geographic features of the park are the pillar-like formations that are seen throughout the park. Although resembling karst terrain.",
+                smallDescrip: "The most notable geographic features of the park are the pillar-like formations that are seen throughout the park. ",
                 wiki: "https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park",
 
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
-                    ],
-
-                    largeDescription: "jkshfkash"
+                        
+                        "../images/asia/edit/C-zf-1.jpg",
+						 "../images/asia/edit/C-zf-1.jpg",
+						 "../images/asia/edit/C-zf-1.jpg"
+					],
+					cd:"29.3153° N, 110.4348° E",
+                    largeDescription: "The Zhangjiajie National Forest Park is a unique national forest park located in Zhangjiajie City in Hunan Province in the People's Republic of China. It is one of several national parks within the Wulingyuan Scenic Area. Zhangjiajie National Forest Park, set up in 1982, is the first authorized national forest park in China"
                 }
 
             }
@@ -427,12 +411,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/I-b-1.jpg",
+						 "../images/asia/edit/I-b-1.jpg",
+						 "../images/asia/edit/I-b-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"29.3153° N, 110.4348° E",
+                    largeDescription: "Bali is Indonesia's main tourist destination, which has seen a significant rise in tourists since the 1980s.[6] Tourism-related business makes up 80% of its economy.[7] It is renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music. The Indonesian International Film Festival is held every year in Bali."
                 }
 
             },
@@ -446,14 +430,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/I-bu-1.jpg",
+						 "../images/asia/edit/I-bu-1.jpg",
+						 "../images/asia/edit/I-bu-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"1.6235° N, 124.7603° E",
+                    largeDescription: "Bunaken is an island of 8 km², part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia. It belongs administratively to the municipality of Manado. Scuba diving attracts many visitors to the island"
                 }
 
             },
@@ -467,14 +449,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                       "../images/asia/edit/B-gili-1.jpg",
+						 "../images/asia/edit/B-gili-1.jpg",
+						 "../images/asia/edit/B-gili-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"4.2949° N, 73.5581° E",
+                    largeDescription: "Soneva, formerly Soneva Resorts and Residences, is a resort chain founded by Sonu Shivdasani and his wife, Eva Malmström Shivdasani in 1995.[1] The company currently owns and manages Soneva Fushi, located in the Baa Atoll, Soneva Jani,[2] located in the Noonu Atoll, both in the Maldives and Soneva Kiri in Koh Kood, Thailand. It also owns and manages a two bedroom luxury yacht, Soneva in Aqua."
                 }
 
             },
@@ -489,14 +469,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                      "../images/asia/edit/B-ol-1.jpg",
+						 "../images/asia/edit/B-ol-1.jpg",
+						 "../images/asia/edit/B-ol-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"4.5549° N, 72.5415° E",
+                    largeDescription: "It is mostly rimmed by barrier reefs, the broadest of which are topped by islands. There are many islands along its eastern and southern boundaries.This atoll is quite regular excepting for the projection of the reef at its NE corner (Isdhū Muli). It closely resembles Kolhumadulhu, its neighbour further north. Owing to its typical atoll shape, it differs in no respect from atolls in the Pacific Ocean, save for its greater size."
                 }
 
             },
@@ -511,14 +489,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/asia/edit/I-gili-1.jpg",
+						 "../images/asia/edit/I-gili-1.jpg",
+						 "../images/asia/edit/I-gili-1.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+					cd:"8.6212° S, 115.0868° E",
+                    largeDescription: "Tanah Lot is a rock formation off the Indonesian island of Bali. It is home to the ancient Hindu pilgrimage temple Pura Tanah Lot, a popular tourist and cultural icon for photography. During the ritual in Tanah Lot temple, Balinese people would come to pray and even some of them also come from several regions in Indonesia."
                 }
 
             }
