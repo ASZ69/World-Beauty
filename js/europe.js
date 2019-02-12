@@ -40,18 +40,16 @@ var myData = [
                 rating: "4.7",
                 smallDescrip: "Uyuni a small town situated in the middle of nowhere. It originally blossomed as a railroad junction.",
                 wiki: "https://wikitravel.org/en/Uyuni",
-
-                moreDetails: {
+              moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/europ/c-edit/u1.jpg",
+  			            "../images/europ/c-edit/u3.jpg",
+                         "../images/europ/c-edit/u2.jpg"
+                       
                     ],
-
-                    largeDescription: "jkshfkash"
+                     cd:"35.8800° N, 76.5151° E",
+                    largeDescription: "K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders, with around 300 successful summits and 77 fatalities; about one person dies on the mountain for every four who reach the summit.[5] It is more difficult and hazardous to reach the peak of K2 from the Chinese side, so it is usually climbed from the Pakistani side.The name K2 is derived from the notation used by the Great Trigonometric Survey of British India. T"
                 }
 
             },
@@ -64,16 +62,14 @@ var myData = [
                 wiki: "https://en.wikipedia.org/wiki/Patagonia",
 
                 moreDetails: {
-
+                   
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/europ/c-edit/pt-1.jpg",
+  			            "../images/europ/c-edit/pt-2.jpg",
+                         "../images/europ/c-edit/pt-3.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+                      cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -88,14 +84,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/europ/c-edit/pl-C.jpg",
+  			            "../images/europ/c-edit/pl-C-2.jpg",
+                         "../images/europ/c-edit/pl-C-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             }
@@ -118,13 +113,14 @@ var myData = [
 
                 moreDetails: {
 
-                    images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                    images: [ 
+						"../images/europ/c-edit/bb-Gr-1.jpg",
+  			            "../images/europ/c-edit/bb-Gr-2.jpg",
+                         "../images/europ/c-edit/bb-Gr-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -139,14 +135,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                         "../images/europ/c-edit/im-Gr-1.jpg",
+  			            "../images/europ/c-edit/im-Gr-2.jpg",
+                         "../images/europ/c-edit/im-Gr-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -161,14 +156,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                        "../images/europ/c-edit/mc-Gr-1.jpg",
+  			            "../images/europ/c-edit/mc-Gr-2.jpg",
+                         "../images/europ/c-edit/mc-Gr-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             }
@@ -193,12 +187,12 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/k-IL-1.jpg",
+  			            "../images/europ/c-edit/k-IL-2.jpg",
+                         "../images/europ/c-edit/k-IL-3.jpg"
                     ],
-
-                    largeDescription: "jkshfkash"
+   cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -213,14 +207,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/ac-I-1.jpg",
+  			            "../images/europ/c-edit/ac-I-2.jpg",
+                         "../images/europ/c-edit/ac-I-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -235,14 +228,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/cm-I-1.jpg",
+  			            "../images/europ/c-edit/cm-I-2.jpg",
+                         "../images/europ/c-edit/cm-I-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -257,14 +249,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
-                    ],
+                       
+                          "../images/europ/c-edit/s-P-1.jpg",
+  			            "../images/europ/c-edit/s-P-2.jpg",
+                         "../images/europ/c-edit/s-P-3.jpg"                    ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             }
@@ -290,12 +281,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/rt-E-1.jpg",
+  			            "../images/europ/c-edit/rt-E-2.jpg",
+                         "../images/europ/c-edit/rt-E-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -309,14 +301,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/cw-E-1.jpg",
+  			            "../images/europ/c-edit/cw-E-2.jpg",
+                         "../images/europ/c-edit/cw-E-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -330,14 +321,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/nc-G-1.jpg",
+  			            "../images/europ/c-edit/nc-G-2.jpg",
+                         "../images/europ/c-edit/nc-G-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -350,14 +340,13 @@ var myData = [
                 moreDetails: {
 
                     images: [
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg",
-                        "images/j.jpg"
+                          "../images/europ/c-edit/rg-G-1.jpg",
+  			            "../images/europ/c-edit/rg-G-2.jpg",
+                         "../images/europ/c-edit/rg-G-3.jpg"
                     ],
 
-                    largeDescription: "jkshfkash"
+                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             } 
