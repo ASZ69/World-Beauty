@@ -6,15 +6,16 @@
     text-align: center;
     border-radius: 3px;
     padding: 8px 20px;
-    color: #05BD9E;
+    color: var(--hover-color);
     border: none;
     text-decoration: none;
     box-shadow: 0 8px 16px 0 var(--hover-color);
+	font-weight: bold;
 }
 
     .Button:hover {
         opacity: 0.8;
-        background-color: rgba(65,49,26,1.00);
+        background-color:gray;
         text-decoration: none;
         color: solid black !important;
     }
@@ -153,7 +154,7 @@
     padding: 10px 0;
     margin-bottom: 20px;
 	border: none;
-	border-bottom: dashed 1px solid black;
+	border-bottom: 1px solid black;
     background-color: inherit;
     /*    for variable text area*/
     min-height: 10px;
@@ -162,18 +163,34 @@
 .PnSnM {
     float: left;
     width: 30%;
-    margin-right: 5%;
-    text-decoration: none;
-    border: none;
+    margin-right: 5%;   
+	text-decoration: none;
     border-bottom: 1px solid black;
     padding: 10px 0;
-    background-color: inherit;
     /*    for variable text area*/
     min-height: 10px;
 }
 
 .Cbtn {
     float: left;
+	    background: rgba(26,26,24,1.00);
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px 20px;
+    color: var(--hover-color);
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 var(--hover-color);
+	font-weight: bold;
+margin-top: 40px;
+	margin-left: 100px;
+	
+}
+.Cbtn:hover{
+	   opacity: 0.8;
+        background-color:gray;
+        text-decoration: none;
+        color: solid black !important;
 }
 
 .contact-form > textarea, input {
@@ -205,8 +222,10 @@
 }
 
 .test {
-    width: 15%;
-
+    width: 30%;
+     display: inline-block;
+	float:right;
+	padding-left: 4px;
 }
 
 .colorBg {
@@ -291,6 +310,7 @@
     float: right;
     margin-top: 20px;
     font-style: italic;
+	color: rgba(147,147,147,1.00);
 }
 
 .half-2div {
@@ -408,6 +428,9 @@
     font-size: 40px;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: bolder;
+	font:italic;
+	
+	
 }
 
 .contact-form {
@@ -450,12 +473,12 @@
     color: var(--hover-color);
     border: none;
     text-decoration: none;
-    box-shadow: 0 8px 16px 0 black;
+    box-shadow:0 8px 16px 0 var(--hover-color);
     font-size: 1.5vw;
 }
 
     .top-btn:hover {
-        opacity: 0.8;
+     
         background-color: var(--hover-color);
         text-decoration: none;
         color: solid black !important;
@@ -471,6 +494,8 @@
 .Tri-line {
     padding-left: 30px;
     padding-right: 30px;
+	color: rgba(147,147,147,1.00);
+	
 }
 
 .del-margin {
@@ -609,7 +634,7 @@ body {
 .set-top-btn {
     position: absolute;
     bottom: -18%;
-    left: 50%;
+    left: 51%;
     transform: translateX(-50%);
 }
 
@@ -641,7 +666,7 @@ body {
 
 .set-g-img {
 	width: 100%;
-	height: 300px;
+	height: auto;
 }
 
 .padding-Del-g {
@@ -696,5 +721,12 @@ body {
 	color: rgba(205,204,204,1.00);
 	font-style: italic;
 }
+
+
+
+
+*/
+
+
 
 
