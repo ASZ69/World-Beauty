@@ -9,13 +9,13 @@
     color: var(--hover-color);
     border: none;
     text-decoration: none;
-    box-shadow: 0 8px 16px 0 var(--hover-color);
+    box-shadow: 0 8px 16px 0 var(--bg-color);
 	font-weight: bold;
 }
 
     .Button:hover {
         opacity: 0.8;
-        background-color:gray;
+        background-color:white;
         text-decoration: none;
         color: solid black !important;
     }
@@ -724,8 +724,6 @@ body {
 
 
 
-
-*/
 
 
 

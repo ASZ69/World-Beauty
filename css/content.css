@@ -92,13 +92,14 @@
     padding-bottom: 5px;
     border-radius: 5px;
     text-align: center;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid var(--hover-color);
     margin-top: 10px;
+	cursor: pointer;
 }
 
 .places {
 	
-    background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(222, 218, 182, 0.65));
+    background: linear-gradient(rgba(5, 218, 182, 0.65),rgba(0,0,0,1.00));
     font-size: 1.2vw;
     color: azure;
     border-radius: 5px 1px 1px 1px;
@@ -107,7 +108,10 @@
     list-style-type: none;
     padding: 2px 5px 2px 5px;
     margin-top: 5px;
+	cursor: pointer;
+	
 }
+
 
 
 
