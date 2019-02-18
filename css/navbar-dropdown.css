@@ -2,7 +2,10 @@
 
 .mega-menu{width: 800px; overflow: hidden; padding: 10px;}
 .mega-menu a{text-decoration: none !important; color: cadetblue;}
-.mega-menu .sub-menu-heading{ color: black;}
+.mega-menu .sub-menu-heading{ 
+	font-size: 1.4em;
+	color: black;}
+
 @media(max-width:767px){
 	.mega-menu{
 		width: 300px;

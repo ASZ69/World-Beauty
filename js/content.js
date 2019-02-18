@@ -1,9 +1,8 @@
 // JavaScript Document
-var myUrl=window.location.href;
-//var mCat=myUrl.replace.("?","");
-var sCat=myUrl.split("?")[0]);
-
-  alert(sCat);
+//var myUrl=window.location.href;
+////var mCat=myUrl.replace.("?","");
+//var sCat=myUrl.split("?")[0]);
+//alert(sCat);
 
 
 var content = angular.module("myApp", []);
@@ -190,7 +189,7 @@ var myData = [
      
                     ],
 					cd:"32.4762° N, 76.6974° E",
-                    largeDescription: "The Tirah also spells as Terah, Tira, Tera (Pashto: تیراہ‎) region, also called the Tirah Valley (Pashto: وادی تیراہ‎), is located in Khyber, Kurram and Orakzai agencies in the Khyber Pakhtunkhwa province of Pakistan (33.73N 71.01E), while its smaller part straddles the border to the north lying in Nangarhar Province, Afghanistan. Tirah lies between the Khyber Pass and the Khanki Valley. It is inhabited by the Afridi, Orakzai and Shinwari tribes of Pashtuns."
+                    largeDescription: "The Tirah also spells as Terah, Tira, Tera (Pashto: تیراہ) region, also called the Tirah Valley (Pashto: وادی تیراہ), is located in Khyber, Kurram and Orakzai agencies in the Khyber Pakhtunkhwa province of Pakistan (33.73N 71.01E), while its smaller part straddles the border to the north lying in Nangarhar Province, Afghanistan. Tirah lies between the Khyber Pass and the Khanki Valley. It is inhabited by the Afridi, Orakzai and Shinwari tribes of Pashtuns."
                 }
 
             },
@@ -236,8 +235,8 @@ var myData = [
 
                     images: [
                         "../images/asia/edit/taj-1.jpg",
-						 "../images/asia/edit/taj-2.jpg",
-						 "../images/asia/edit/taj-1.jpg",
+					    "../images/asia/edit/taj-2.jpg",
+						"../images/asia/edit/taj-1.jpg",
                     ],
 
                     largeDescription: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favourite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan, the builder. and one of the universally admired masterpieces of the world's heritage "
@@ -285,7 +284,7 @@ var myData = [
             },
 
             {
-                pName: "Kaziranga National Park",
+                pName: "Kaziranga National",
                 imgSrc: "../images/asia/india/edit-content/kaziranga.jpg",
                 rating: "4.4",
                 smallDescrip: "Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers .",
@@ -378,7 +377,7 @@ var myData = [
 
             {
                 pName: "Zhangjiajie-Forest",
-                imgSrc: "../images/asia/china/lee-river.jpg",
+                imgSrc: "../images/asia/china/Zhangjiajie-Forest.jpg",
                 rating: "4.3",
                 smallDescrip: "The most notable geographic features of the park are the pillar-like formations that are seen throughout the park. ",
                 wiki: "https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park",
@@ -413,7 +412,7 @@ var myData = [
                 pName: "Bali-Resort",
                 imgSrc: "../images/asia/maldives/edit/Bali-Resort.jpg",
                 rating: "5.0",
-                smallDescrip: "Bali is Indonesia's main tourist destination, which has seen a significant rise in tourists since the 1980s. Tourism-related business makes up 80% of its economy. It is renowned for its highly developed arts.",
+                smallDescrip: "Bali is Indonesia's main tourist destination. Tourism-related business makes up 80% of its economy. It is renowned for its highly developed arts.",
 
                 moreDetails: {
 
@@ -432,7 +431,7 @@ var myData = [
                 pName: "Bunaken",
                 imgSrc: "../images/asia/maldives/edit/bunaken.jpg",
                 rating: "4.5",
-                smallDescrip: "Bunaken is an island of 8 km², part of the Bunaken National Marine Park. Bunaken is located at the northern tip of the island of Sulawesi, Indonesia. It belongs administratively to the municipality of Manado.",
+                smallDescrip: "Bunaken is an island of 8 km²,part of the Bunaken National Marine Park. Bunaken is located at the northern the island of Sulawesi, Indonesia.",
 
                 moreDetails: {
 
@@ -451,7 +450,7 @@ var myData = [
                 pName: "Gili-Lankanfushi",
               imgSrc: "../images/asia/maldives/edit/Gili-Lankanfushi.jpg",
                 rating: "4.8",
-                smallDescrip: "Soneva, formerly Soneva Resorts and Residences, is a resort chain founded by Sonu ... 2011: Sale of private residences at Soneva Fushi begins; 2012: Split and sale of Six Senses, Evason, and Soneva Gili (now known as Gili Lankanfushi)",
+                smallDescrip: "Soneva, formerly Soneva Resorts and Residences Sale of Soneva Fushi begins; 2012: Split and sale of Six Senses, Evason, and Soneva",
 
                 moreDetails: {
 
@@ -490,7 +489,7 @@ var myData = [
                 pName: "Tanah-Lot",
                 imgSrc: "../images/asia/maldives/edit/Tanah-Lot.jpg",
                 rating: "4.8",
-                smallDescrip: "Tanah Lot is a rock formation off the Indonesian island of Bali. It is home to the ancient Hindu pilgrimage temple Pura Tanah Lot (literally Tanah Lot temple), a popular tourist and cultural icon for photography.",
+                smallDescrip: "Tanah Lot is a rock formation off the Indonesian island of Bali. It is home to the ancient Hindu pilgrimage temple Pura Tanah Lot.",
                 wiki: "https://en.wikipedia.org/wiki/Tanah_Lot",
 
                 moreDetails: {

@@ -730,6 +730,6 @@ body {
 
 
 .nav-text {
-	style=color: var(--hover-color) !important; 
-	padding-left: 5px;
+	color: var(--hover-color) !important; 
+	padding-left: 40px;
 }
