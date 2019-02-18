@@ -1,4 +1,11 @@
 // JavaScript Document
+var myUrl=window.location.href;
+//var mCat=myUrl.replace.("?","");
+var sCat=myUrl.split("?")[0]);
+
+  alert(sCat);
+
+
 var content = angular.module("myApp", []);
 
 content.controller("navControl", function ($scope, $filter) {
