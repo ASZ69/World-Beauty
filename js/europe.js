@@ -38,7 +38,7 @@ var myData = [
                 pName: "Uyuni-Blovia",
                 imgSrc: "../images/europ/bolivia/Uyuni/edited/u1.jpg",
                 rating: "4.7",
-                smallDescrip: "Uyuni a small town situated in the middle of nowhere. It originally blossomed as a railroad junction.",
+                smallDescrip: "Uyuni a small town situated in the middle of nowhere. It originally blossomed as a railroad junction.ith around 300 successful summits and 77 fatalities",
                 wiki: "https://wikitravel.org/en/Uyuni",
               moreDetails: {
 
@@ -48,8 +48,8 @@ var myData = [
                          "../images/europ/c-edit/u2.jpg"
                        
                     ],
-                     cd:"35.8800° N, 76.5151° E",
-                    largeDescription: "K2 is known as the Savage Mountain due to the extreme difficulty of ascent. It has the second-highest fatality rate among the eight thousanders, with around 300 successful summits and 77 fatalities; about one person dies on the mountain for every four who reach the summit.[5] It is more difficult and hazardous to reach the peak of K2 from the Chinese side, so it is usually climbed from the Pakistani side.The name K2 is derived from the notation used by the Great Trigonometric Survey of British India. T"
+                     cd:"20.4604° S, 66.8261° W",
+                    largeDescription: "Uyuni is a city in the southwest of Bolivia. There is little agriculture in the area because water supplies are scarce and somewhat saline. Uyuni primarily serves as a gateway for tourists visiting the world's largest salt flats, the nearby Uyuni salt flat.Uyuni is asouthwest of Bolivia. There is little agriculture in the area because water supplies are scarce and somewhat saline. Uyuni primarily serves as a gateway for tourists visiting the world's largest salt flats, the nearby Uyuni salt flat. "
                 }
 
             },
@@ -58,7 +58,7 @@ var myData = [
                 pName: "Patagonia Chile",
                 imgSrc: "../images/europ/chile/patagonia-chile/edit/c1.jpg",
                 rating: "5.0",
-                smallDescrip: "The Colorado and Barrancas rivers, which run from the Andes to the Atlantic..",
+                smallDescrip: "The Colorado and Barrancas rivers, which run from the Andes to the Atlantic.ile the Chilean has glacial fjords and temperate rainforest.",
                 wiki: "https://en.wikipedia.org/wiki/Patagonia",
 
                 moreDetails: {
@@ -89,8 +89,8 @@ var myData = [
                          "../images/europ/c-edit/pl-C-3.jpg"
                     ],
 
-                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                       cd:"44.8654° N, 15.5820° E",
+                    largeDescription: "Plitviče Lakes National Park is a 295-sq.-km forest reserve in central Croatia. It's known for a chain of 16 terraced lakes, joined by waterfalls, that extend into a limestone canyon. Walkways and hiking trails wind around and across the water, and an electric boat links the 12 upper and 4 lower lakes. The latter are the site of Veliki Slap, a 78m-high waterfall."
                 }
 
             }
@@ -108,7 +108,7 @@ var myData = [
                 pName: "Balos Beach",
                 imgSrc: "../images/europ/Greec/edit/b1.jpg",
                 rating: "5.0",
-                smallDescrip: "There is a lagoon, named the Balos lagoon, between the island and the coast of Crete.",
+                smallDescrip: "There is a lagoon, named the Balos lagoon, between the island and the coast of Crete.The Argentine side features arid steppes, grasslands and deserts",
                 wiki: "https://en.wikipedia.org/wiki/Gramvousa",
 
                 moreDetails: {
@@ -119,8 +119,8 @@ var myData = [
                          "../images/europ/c-edit/bb-Gr-3.jpg"
                     ],
 
-                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                       cd:"35.5793° N, 23.5887° E",
+                    largeDescription: "The fort at Imeri Gramvousa was built between 1579 and 1584 during Venetian rule over Crete to defend the island from the Ottoman Turks. The fort remained in Venetian hands throughout the prolonged Cretan War, and in the treaty of 16 September 1669, which surrendered Crete to the Ottomans, Gramvousa, along with the fortresses of Souda and Spinalonga, was retained by Venice. These three forts defended Venetian trade routes and were also strategic bases in the event of a new Ottoman–Venetian war for Crete."
                 }
 
             },
@@ -129,7 +129,7 @@ var myData = [
                 pName: "Imerovigli",
                  imgSrc: "../images/europ/Greec/edit/i1.jpg",
                 rating: "4.7",
-                smallDescrip: "Imerovigli is a village on the island of Santorini, Greece, adjacent to the north of the island capital Fira. ",
+                smallDescrip: "Imerovigli is a village on the island of Santorini, Greece, adjacent to the north of the island capital Fira. rgentina’s famed RN-40 highway.",
                 wiki: "https://wikitravel.org/en/Imerovigli",
 
                 moreDetails: {
@@ -140,8 +140,8 @@ var myData = [
                          "../images/europ/c-edit/im-Gr-3.jpg"
                     ],
 
-                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                       cd:"36.4328° N, 25.4228° E",
+                    largeDescription: "Imerovigli is a village on the island of Santorini, Greece, adjacent to the north of the island capital Fira. Imerovigli is mostly famous for its beautiful sunset, that it is called balcony to the Aegean. Its houses are built amphitheatrically around the caldera and it is crossed by narrow, paved paths."
                 }
 
             },
@@ -150,7 +150,7 @@ var myData = [
                 pName: "Melissani Cave",
                  imgSrc: "../images/europ/Greec/edit/m1.jpg",
                 rating: "4.9",
-                smallDescrip: " Melissani Cave or Melissani Lake, also Melisani is a cave located on the island of Kefalonia",
+                smallDescrip: " Melissani Cave or Melissani Lake, also Melisani is a cave located on the island of Kefalonia.hile the Chilean has glacial fjords and temperate rainforest.",
                 wiki: "https://en.wikipedia.org/wiki/Melissani_Cave",
 
                 moreDetails: {
@@ -161,8 +161,8 @@ var myData = [
                          "../images/europ/c-edit/mc-Gr-3.jpg"
                     ],
 
-                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                       cd:"38.2570° N, 20.6235° E",
+                    largeDescription: "Melissani Cave or Melissani Lake, also Melisani is a cave located on the island of Kefalonia, northwest of Sami, about 5 km SE of Agia Effimia, NE of Argostoli and NW of Poros. The Ionian Sea lies to the east with the Strait of Ithaca. Forests surround the cave and the mountain slope is to the west.Nymphs in Greek and Latin mythology are a sort of female spirit,typically associated with a particular location or landform such as Melissani Lake."
                 }
 
             }
@@ -181,7 +181,7 @@ var myData = [
                 pName: "Kirkjufell-Iceland",
                 imgSrc: "../images/europ/iceland/edit/ki-1.jpg",
                 rating: "4.9",
-                smallDescrip: "There were many photographers taking long exposure photographs with the milkyway, the northern lights ",
+                smallDescrip: "There were many photographers taking long exposure photographs with the milkyway, the northern lights.Scenes from Game of Thrones Season 6 and 7 were filmed near Kirkjufell. ",
                  wiki: "https://en.wikipedia.org/wiki/Kirkjufell",
 
                 moreDetails: {
@@ -191,8 +191,8 @@ var myData = [
   			            "../images/europ/c-edit/k-IL-2.jpg",
                          "../images/europ/c-edit/k-IL-3.jpg"
                     ],
-   cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                    cd:"49°55′S 73°32′W 49°55′S 73°32′W",
+                    largeDescription: "Kirkjufell is a 463 m high mountain on the north coast of Iceland's Snæfellsnes peninsula, near the town of Grundarfjörður. It is claimed to be the most photographed mountain in the country. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
                 }
 
             },
@@ -201,7 +201,7 @@ var myData = [
                 pName: "Aillwee Cave-Ireland",
                 imgSrc: "../images/europ/ireland/edit/a-1.jpg",
                 rating: "4.7",
-                smallDescrip: "Aillwee Cave is a cave system in the karst landscape of the Burren in County Clare, Ireland",
+                smallDescrip: "Aillwee Cave is a cave system in the karst landscape of the Burren in County Clare, Ireland.it forms part of the Aillwee Cave and Birds of Prey Centre attraction.",
                 wiki: "https://en.wikipedia.org/wiki/Aillwee_Cave",
 
                 moreDetails: {
@@ -213,16 +213,16 @@ var myData = [
                     ],
 
                        cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                    largeDescription: "Aillwee Cave is a cave system in the karst landscape of the Burren in County Clare, Ireland. The name Aillwee is derived from the Irish Aill Bhuí which means yellow cliff. Privately owned, it forms part of the Aillwee Cave and Birds of Prey Centre attraction. "
                 }
 
             },
 
             {
-                pName: "cliffs of Moher-Ireland",
+                pName: "Moher-Ireland",
                 imgSrc: "../images/europ/ireland/edit/cl-1.jpg",
                 rating: "4.4",
-                smallDescrip: "The Cliffs of Moher are sea cliffs located at the southwestern edge of the Burren ",
+                smallDescrip: "The Cliffs of Moher are sea cliffs located at the southwestern edge of the Burren.they have formed a part of the Burren and Cliffs of Moher Geopark. ",
                 wiki: "https://en.wikipedia.org/wiki/Cliffs_of_Moher",
 
                 moreDetails: {
@@ -234,7 +234,7 @@ var myData = [
                     ],
 
                        cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                    largeDescription: "The cliffs are one of the most popular tourist destinations in Ireland and topped a list of attractions in 2006 by drawing almost one million visitors (at the official visitor centre, with additional visitors accessing other locales); the total visit number is now around 1.5 million per annum.[10] Since 2011, they have formed a part of the Burren and Cliffs of Moher Geopark, one of a family of geotourism destinations throughout Europe that are members of the European Geoparks Network[11] and also recognized by UNESCO. The cliffs are also a signature point on the official Wild Atlantic Way tourist trail."
                 }
 
             },
@@ -243,7 +243,7 @@ var myData = [
                 pName: "Sintra-Portugal",
                 imgSrc: "../images/europ/Portugal/S1.jpg",
                 rating: "4.7",
-                smallDescrip: "Sintra is a resort town in the foothills of Portugal’s Sintra Mountains, near the capital, Lisbon.",
+                smallDescrip: "Sintra is a resort town in the foothills of Portugal’s Sintra Mountains, near the capital, Lisbon.dramatic twin chimneys and elaborate tilework.",
                 wiki: "https://wikitravel.org/en/Sintra",
 
                 moreDetails: {
@@ -254,8 +254,8 @@ var myData = [
   			            "../images/europ/c-edit/s-P-2.jpg",
                          "../images/europ/c-edit/s-P-3.jpg"                    ],
 
-                       cd:"49°55′S 73°32′W 49°55′S 73°32′W",
-                    largeDescription: "Patagonia is a region encompassing the vast southernmost tip of South America, shared by Argentina and Chile, with the Andes Mountains as its dividing line. The Argentine side features arid steppes, grasslands and deserts, while the Chilean has glacial fjords and temperate rainforest. Argentina’s famed RN-40 highway passes the pinnacles of Monte Fitz Roy and Perito Moreno Glacier in Los Glaciares National Park."
+                       cd:"38.8029° N, 9.3816° W",
+                    largeDescription: "Sintra is a resort town in the foothills of Portugal’s Sintra Mountains, near the capital, Lisbon. A longtime royal sanctuary, its forested terrain is studded with pastel-colored villas and palaces. The Moorish- and Manueline-style Sintra National Palace is distinguished by dramatic twin chimneys and elaborate tilework. The hilltop 19th-century Pena National Palace is known for a whimsical design and sweeping views.."
                 }
 
             }
@@ -273,7 +273,7 @@ var myData = [
         places: [
 
             {
-                pName: "River Thames-England",
+                pName: "River Thames",
                 imgSrc: "../images/europ/england/edit/r-1.jpg",
                 rating: "3.5",
                 smallDescrip: "The River Thames, known alternatively in parts as the Isis, is a river that flows through southern England  .",
@@ -313,7 +313,7 @@ var myData = [
             },
 
             {
-                pName: "Neuschwanstein-Castle",
+                pName: "Neuschwanstein",
               imgSrc: "../images/europ/germany/edit/ca1.jpg",
                 rating: "4.8",
                 smallDescrip: " Neuschwanstein Castle is a 19th-century Romanesque Revival palace on a rugged hill above the village",
