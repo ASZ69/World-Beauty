@@ -20,6 +20,26 @@ content.controller("navControl", function ($scope, $filter) {
         $scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName: subCat });
     };
 	
+	$scope.viewCard = function (event) {
+        var clickedRefer = event.currentTarget;
+        var subCat = clickedRefer.parentElement.getElementsByTagName("h2")[0].innerHTML;
+		
+		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName:subCat });
+    };
+	
+	var myUrl=window.location.href;	
+	var sCat=myUrl.split("?")[1];
+	if(sCat != null){
+		var get=sCat.split("=")[2];
+		var subCat=get.replace("%20"," ");
+		var mainCat=sCat.split("&")[0];
+		var mainCatFinal=mainCat.split("=")[1];
+
+		$scope.contentArray = $filter('filter')(myData, { name: mainCatFinal });
+		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName: subCat });
+		$(".main-page").css("display", "none");
+		$(".sub-page").css("display", "block");
+	}
 	
     $scope.contentArray = $filter('filter')(myData, { name: 'East-Europe' });
 

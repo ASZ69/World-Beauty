@@ -297,7 +297,7 @@
                                     <span>Rating: <span>{{place.rating}}</span> </span>
 
                                     <p>{{place.smallDescrip}}</p>
-                                    <button onClick="dataHide()" class="Button">View Card</button>
+                                    <button onClick="dataHide()" ng-click="viewCard($event)" class="Button">View Card</button>
                                     <a href="{{place.wiki}}" class="Button">WikiPedia</a>
 
                                 </div>
