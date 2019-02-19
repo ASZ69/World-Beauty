@@ -1,9 +1,4 @@
 // JavaScript Document
-//var myUrl=window.location.href;
-////var mCat=myUrl.replace.("?","");
-//var sCat=myUrl.split("?")[0]);
-//alert(sCat);
-
 
 var content = angular.module("myApp", []);
 
@@ -13,7 +8,6 @@ content.controller("navControl", function ($scope, $filter) {
         var navigation = referClick.innerHTML;
         $scope.contentArray = $filter('filter')(myData, { name: navigation });
     }
-	
 	
 	$scope.showSubContent = function (event) {
         var clickedRefer = event.currentTarget;
@@ -25,7 +19,26 @@ content.controller("navControl", function ($scope, $filter) {
 		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName:subCat });
     };
 	
+	$scope.viewCard = function (event) {
+        var clickedRefer = event.currentTarget;
+        var subCat = clickedRefer.parentElement.getElementsByTagName("h2")[0].innerHTML;
+		
+		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { pName:subCat });
+    };
 	
+	var myUrl=window.location.href;	
+	var sCat=myUrl.split("?")[1];
+	if(sCat != null){
+		var get=sCat.split("=")[2];
+		var subCat=get.replace("%202"," ");
+		var mainCat=sCat.split("&")[0];
+		var mainCatFinal=mainCat.split("=")[1];
+
+		$scope.contentArray = $filter('filter')(myData, { name: mainCatFinal });
+		$scope.subContentArray = $filter('filter')($scope.contentArray[0].places, { name: subCat });
+		$(".main-page").css("display", "none");
+		$(".sub-page").css("display", "block");
+	}
 
     $scope.contentArray = $filter('filter')(myData, { name: 'Pakistan' });
 

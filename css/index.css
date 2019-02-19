@@ -9,7 +9,7 @@
     color: var(--hover-color);
     border: none;
     text-decoration: none;
-    box-shadow: 0 8px 16px 0 var(--bg-color);
+    box-shadow: 0 8px 16px 0 var(--hover-color);
 	font-weight: bold;
 }
 
@@ -522,6 +522,7 @@ margin-top: 40px;
 
 .img-effect {
     background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.10));
+
 }
 
 .img-effect>img:hover ~ .overlay {
