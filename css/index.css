@@ -15,9 +15,10 @@
 
     .Button:hover {
         opacity: 0.8;
-        background-color:white;
+        background-color:var(--hover-color);
         text-decoration: none;
-        color: solid black !important;
+		box-shadow:0 8px 16px 0 var(--bg-color);
+        
     }
 /*zoom pics*/
 /* @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
@@ -478,7 +479,7 @@ margin-top: 40px;
 }
 
     .top-btn:hover {
-     
+        box-shadow:0 15px 40px 0 var(--bg-color);
         background-color: var(--hover-color);
         text-decoration: none;
         color: solid black !important;
@@ -635,7 +636,7 @@ body {
 .set-top-btn {
     position: absolute;
     bottom: -18%;
-    left: 51%;
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -733,4 +734,9 @@ body {
 .nav-text {
 	color: var(--hover-color) !important; 
 	padding-left: 40px;
+}
+
+.galary {
+	position: absolute;
+	bottom: 1%;
 }
