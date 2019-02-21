@@ -4,9 +4,12 @@
 /*    --hover-color: #05BD9E;*/
 	 --hover-color: rgba(14,126,140,1.00);
     --text-color: #7C7C7C;
+	--heading-color: #E9E9E9;
 	
 /*	color for card*/
 	--card-color:  linear-gradient( rgba(72,74,74,1.00),rgba(14,126,140,1.00));
 
 }
+
+
 

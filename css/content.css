@@ -110,6 +110,7 @@
     padding: 2px 5px 2px 5px;
     margin-top: 5px;
 	cursor: pointer;
+	margin-left: 0px !important;
 	
 }
 
@@ -307,3 +308,9 @@
 									color: rgba(34,153,177,1.00);
 								}
 
+
+.c-head {
+	color: var(--heading-color);
+	border-bottom: 5px  var(--hover-color);
+	font-weight: bolder;
+}
