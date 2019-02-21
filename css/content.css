@@ -27,6 +27,7 @@
     border-radius: 1px 7px 1px 1px;
     color: azure;
     background: var(--card-color);
+	overflow: hidden;
 }
 
     .content-card:hover {
@@ -314,3 +315,30 @@
 	border-bottom: 5px  var(--hover-color);
 	font-weight: bolder;
 }
+
+.divPos {
+	position: absolute;
+	top: 2%;
+}
+
+.c-Button {
+	cursor: pointer;
+    background: rgba(26,26,24,1.00);
+    text-align: center;
+    border-radius: 3px;
+    padding: 8px 20px;
+    color: var(--hover-color);
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 var(--bg-color);
+	font-weight: bold;
+}
+    .c-Button:hover {
+		color: white;
+        opacity: 0.8;
+        background-color:var(--hover-color);
+        text-decoration: none;
+		box-shadow:0 8px 16px 0 var(--bg-color);
+        
+    }
+

@@ -2,6 +2,7 @@
 
 
 .Button {
+	cursor: pointer;
     background: rgba(26,26,24,1.00);
     text-align: center;
     border-radius: 3px;
@@ -14,6 +15,7 @@
 }
 
     .Button:hover {
+		color: white;
         opacity: 0.8;
         background-color:var(--hover-color);
         text-decoration: none;
@@ -142,6 +144,7 @@
 }
 
 .contactForm {
+	width: 100%;
 	overflow: hidden;
     z-index: 333;
    height: auto;
@@ -158,10 +161,13 @@
     margin-bottom: 20px;
 	border: none;
 	border-bottom: 1px solid black;
+	font-weight: bolder;
+	font-size: 1.3em;
     background-color: inherit;
     /*    for variable text area*/
     
 }
+
 
 .PnSnM {
     float: left;
@@ -170,13 +176,15 @@
 	text-decoration: none;
     border-bottom: 1px solid black;
     padding: 10px 0;
+	font-weight: bolder;
+	font-size: 1.3em;
     /*    for variable text area*/
     min-height: 10px;
 }
 
 .Cbtn {
     float: left;
-	    background: rgba(26,26,24,1.00);
+	background: rgba(26,26,24,1.00);
     text-align: center;
     border-radius: 3px;
     padding: 8px 20px;
@@ -185,7 +193,7 @@
     text-decoration: none;
     box-shadow: 0 8px 16px 0 var(--hover-color);
 	font-weight: bold;
-margin-top: 40px;
+    margin-top: 40px;
 	margin-left: 100px;
 	
 }
@@ -428,11 +436,11 @@ margin-top: 40px;
 }
 
 .contact-heading {
-    font-size: 40px;
+    font-size: 3em;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: bolder;
-	font:italic;
-	
+	font-style: italic;
+	width: 100%;
 	
 }
 
